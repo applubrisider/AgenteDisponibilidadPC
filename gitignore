@@ -1,25 +1,13 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.spec
-
-# Env
+@'
 .venv/
-env/
-venv/
-.env
-
-# Build
 build/
 dist/
-*.log
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
+releases/
+__pycache__/
+*.spec
+*.pyc
+.env
+'@ | Out-File -Encoding utf8 .gitignore
+git add .gitignore
+git commit -m "chore: add .gitignore"
+git push
