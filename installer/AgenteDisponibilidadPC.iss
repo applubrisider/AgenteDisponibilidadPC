@@ -53,12 +53,13 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 ; Archivos a instalar
 [Files]
-; Binario principal (generado por PyInstaller)
-Source: "{#AppExe}"; DestDir: "{app}"; Flags: ignoreversion
+; ejecutable principal
+Source: "{#SourcePath}\..\dist\AgenteDisponibilidadPC.exe"; DestDir: "{app}"; Flags: ignoreversion
 
-; Copiar recursos opcionales si existen (assets/config)
-Source: "{#ProjectRoot}\assets\*"; DestDir: "{app}\assets"; Flags: ignoreversion recursesubdirs createallsubdirs; Check: DirExists(ExpandConstant('{#ProjectRoot}\assets'))
-Source: "{#ProjectRoot}\config\*"; DestDir: "{app}\config"; Flags: ignoreversion recursesubdirs createallsubdirs; Check: DirExists(ExpandConstant('{#ProjectRoot}\config'))
+; carpetas opcionales (no fallan si no existen)
+Source: "{#SourcePath}\..\assets\*"; DestDir: "{app}\assets"; Flags: recursesubdirs ignoreversion skipifsourcedoesntexist
+Source: "{#SourcePath}\..\config\*";  DestDir: "{app}\config";  Flags: recursesubdirs ignoreversion skipifsourcedoesntexist
+
 
 ; Tareas opcionales
 [Tasks]
