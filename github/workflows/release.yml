@@ -1,15 +1,12 @@
-name: Release (Windows)
+name: Release
 
 on:
   push:
     tags:
-      - 'v*'   # Se dispara cuando pusheas un tag como v1.2.3
-
-permissions:
-  contents: write
+      - 'v*'
 
 jobs:
-  build:
+  build-release:
     runs-on: windows-latest
 
     steps:
@@ -18,69 +15,46 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get version from tag
-        id: vars
-        shell: bash
-        run: |
-          tag="${GITHUB_REF_NAME}"
-          ver="${tag#v}"
-          echo "tag=$tag" >> $GITHUB_OUTPUT
-          echo "version=$ver" >> $GITHUB_OUTPUT
-
-      - name: Set up Python 3.10
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~\AppData\Local\pip\Cache
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: ${{ runner.os }}-pip-
-
-      - name: Install Python deps
-        shell: pwsh
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip wheel setuptools
-          if (Test-Path '.\requirements.txt') { pip install -r .\requirements.txt }
-          pip install pyinstaller
-
-      - name: Build EXE (PyInstaller, GUI)
-        shell: pwsh
-        run: |
-          $ErrorActionPreference='Stop'
-          pyinstaller --noconfirm --clean --onefile --windowed `
-            --name "AgenteDisponibilidadPC" `
-            "src\main.py"
+          pip install -r requirements.txt pyinstaller
 
       - name: Install Inno Setup
-        shell: pwsh
-        run: choco install innosetup --yes
+        run: choco install innosetup -y
 
-      - name: Build Installer (Inno Setup)
+      - name: Build (PyInstaller)
         shell: pwsh
         run: |
-          $ver = "${{ steps.vars.outputs.version }}"
-          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
-          if (-not (Test-Path $iscc)) { $iscc = "${env:ProgramFiles}\Inno Setup 6\ISCC.exe" }
-          if (-not (Test-Path $iscc)) { throw "ISCC.exe not found" }
-          New-Item -ItemType Directory -Force -Path "releases" | Out-Null
-          & $iscc "/DMyAppVersion=$ver" "installer\AgenteDisponibilidadPC.iss"
+          pyinstaller -y --name AgenteDisponibilidadPC `
+            --distpath dist `
+            --workpath build `
+            --clean `
+            src\main.py
+
+      - name: Build Setup (Inno)
+        shell: pwsh
+        run: |
+          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer\AgenteDisponibilidadPC.iss
 
       - name: Collect artifacts
         shell: pwsh
         run: |
-          New-Item -ItemType Directory -Force -Path "releases" | Out-Null
-          Copy-Item "dist\AgenteDisponibilidadPC.exe" "releases\AgenteDisponibilidadPC_${{ steps.vars.outputs.version }}.exe" -Force
-          Get-ChildItem releases
+          $tag = "${{ github.ref_name }}"
+          $ver = $tag.TrimStart('v')
+          New-Item -ItemType Directory -Force -Path releases | Out-Null
+          Copy-Item dist\AgenteDisponibilidadPC.exe "releases\AgenteDisponibilidadPC_$ver.exe"
+          $setup = Get-ChildItem -Recurse -Filter "*_Setup.exe"
+          if ($setup) { Copy-Item $setup.FullName "releases\AgenteDisponibilidadPC_${ver}_Setup.exe" }
 
-      - name: Create GitHub Release and upload assets
+      - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.vars.outputs.tag }}
-          name: "Agente Disponibilidad PC ${{ steps.vars.outputs.version }}"
-          generate_release_notes: true
-          files: |
-            releases/AgenteDisponibilidadPC_${{ steps.vars.outputs.version }}.exe
-            releases/AgenteDisponibilidadPC_${{ steps.vars.outputs.version }}_Setup.exe
+          name: "Agente Disponibilidad PC ${{ github.ref_name }}"
+          make_latest: true
+          files: releases/*.exe
