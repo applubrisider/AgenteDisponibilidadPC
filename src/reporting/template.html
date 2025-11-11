@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <title>Informe de Disponibilidad</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 24px; }
+    h1 { margin: 0 0 8px 0; }
+    .meta { color: #555; margin-bottom: 16px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+    th, td { border: 1px solid #ddd; padding: 8px; font-size: 14px; }
+    th { background: #f3f4f6; text-align: left; }
+    .ALTA { background: #ecfdf5; }
+    .MEDIA { background: #eff6ff; }
+    .BAJA { background: #fef2f2; }
+    .badge { font-weight: 600; padding: 2px 8px; border-radius: 999px; font-size: 12px; }
+    .b-ALTA { background:#10b981; color:white; }
+    .b-MEDIA { background:#3b82f6; color:white; }
+    .b-BAJA { background:#ef4444; color:white; }
+    .foot { margin-top: 24px; color:#666; font-size:12px; }
+  </style>
+</head>
+<body>
+  <h1>Informe de Disponibilidad</h1>
+  <div class="meta">
+    Rango analizado: {{ rango_inicio }} a {{ rango_fin }} ({{ ventana }} días).<br/>
+    Reglas: ALTA ≥ {{ cfg.umbral_alta_dias }} días ó ≥ {{ cfg.umbral_consecutivos }} consecutivos; 
+    BAJA ≤ {{ cfg.umbral_baja_dias }} días; MEDIA en otro caso.
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>RUT</th>
+        <th>Colaborador</th>
+        <th>Departamento</th>
+        <th>Ciudad</th>
+        <th>Días disp. 30d</th>
+        <th>Máx. consecutivos</th>
+        <th>Criticidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in filas %}
+      <tr class="{{ r.criticidad }}">
+        <td>{{ r.RUT }}</td>
+        <td>{{ r.Colaborador }}</td>
+        <td>{{ r.Departamento }}</td>
+        <td>{{ r.CiudadResidencia }}</td>
+        <td>{{ r.dias_disponibles_30d }}</td>
+        <td>{{ r.max_consecutivos }}</td>
+        <td><span class="badge b-{{ r.criticidad }}">{{ r.criticidad }}</span></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <div class="foot">
+    Generado por Agente de Disponibilidad (PC).
+  </div>
+</body>
+</html>

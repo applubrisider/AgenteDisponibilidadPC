@@ -1,0 +1,81 @@
+name: Build Windows EXE + Installer
+
+on:
+  push:
+    tags: ['v*']          # dispara al pushear un tag (ej: v0.1.0)
+  workflow_dispatch:      # también permite ejecutar manualmente
+
+permissions:
+  contents: write         # necesario para crear Releases y subir assets
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve version
+        id: ver
+        shell: pwsh
+        run: |
+          $ref = "${env:GITHUB_REF}"
+          if ($ref -like "refs/tags/*") {
+            $tag = $ref -replace "^refs/tags/", ""
+          } elseif (Test-Path "version.txt") {
+            $tag = Get-Content -Raw "version.txt"
+          } else {
+            $tag = "0.0.0"
+          }
+          $ver = $tag -replace "^v",""
+          "version=$ver" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install deps
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip wheel setuptools pyinstaller
+          if (Test-Path "requirements.txt") { pip install -r requirements.txt }
+
+      - name: PyInstaller build
+        shell: pwsh
+        run: pyinstaller --noconfirm --clean --onefile --name AgenteDisponibilidadPC src\main.py
+        # si tu app es GUI sin consola, agrega --windowed
+
+      - name: Install Inno Setup
+        shell: pwsh
+        run: choco install innosetup --yes
+
+      - name: Build installer (.iss)
+        shell: pwsh
+        run: |
+          $iscc = "C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) { $iscc = "C:\Program Files\Inno Setup 6\ISCC.exe" }
+          & "$iscc" "/DMyAppVersion=${{ steps.ver.outputs.version }}" "installer\AgenteDisponibilidadPC.iss"
+
+      - name: Prepare releases folder
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path releases | Out-Null
+          Copy-Item dist\AgenteDisponibilidadPC.exe "releases\AgenteDisponibilidadPC_${{ steps.ver.outputs.version }}.exe" -Force
+          # el instalador ya quedó en releases\AgenteDisponibilidadPC_${version}_Setup.exe por el .iss
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: AgenteDisponibilidadPC-${{ steps.ver.outputs.version }}
+          path: releases\*
+
+      - name: Publicar Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          token: ${{ github.token }}   # GITHUB_TOKEN automático
+          tag_name: ${{ github.ref_name }}
+          name: AgenteDisponibilidadPC v${{ steps.ver.outputs.version }}
+          files: releases/*

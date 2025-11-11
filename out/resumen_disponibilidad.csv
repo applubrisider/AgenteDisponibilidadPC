@@ -1,0 +1,80 @@
+﻿RUT,Colaborador,Departamento,Ciudad Residencia,dias_ventana,dias_disponibles,porc_disponible,streak_max,criticidad
+17.210.772-9,Jorge Antonio Alarcon Salinas,OPER,La Calera,15,10,66.7,10,ALTA
+17.507.430-9,Esteban Nicolas Perez Rubio,OPER,Rancagua,15,10,66.7,10,ALTA
+13.844.476-7,Miguel Antonio Jara Pereira,OPER,nan,15,8,53.3,8,ALTA
+20.435.147-3,Emanuel Esteban Delgado Munita,OPER,Santiago,15,8,53.3,8,ALTA
+20.871.148-2,Martin Alexis Alfaro Muñoz,OPER,Santiago,15,8,53.3,8,ALTA
+10.480.364-4,Lorenzo Juan Acuña Flores,OPER,La Pintana,15,7,46.7,7,ALTA
+12.326.284-0,Juan Pablo Pino Jorquera,OPER,Chañaral,15,7,46.7,7,ALTA
+19.613.631-2,Gregory Alexander Torres Sasso,OPER,Villa Alemana,15,7,46.7,7,ALTA
+21.189.108-4,Elias Francisco Zenteno Rosales,OPER,Lo Prado,15,6,40.0,6,ALTA
+15.699.964-4,Hugo Heraldo Araya Cortes,OPER,Los Angeles,15,5,33.3,3,ALTA
+26.010.616-3,Enmanuel Nicolas Alvarez Suyo,OPER,La Florida,15,5,33.3,3,ALTA
+20.456.200-8,Cristian Marcel Perez Nuñez,OPER,pudahuel,15,4,26.7,4,ALTA
+21.777.820-4,Javier Ignacio Canaves Cuadra,OPER,San Joaquín,15,4,26.7,4,ALTA
+12.556.775-4,Victor Manuel Merino Briso,OPER,Talca,15,3,20.0,3,ALTA
+15.205.910-8,John Andres Salas Paredes,OPER,Puyehue,15,3,20.0,3,ALTA
+19.561.125-4,Duvan Maximiliano Pineda Rivera,OPER,Santiago,15,3,20.0,3,ALTA
+10.394.327-2,Luis Alberto Cea Villar,OPER,PEÑALOLEN,15,2,13.3,2,BAJA
+13.655.247-3,Gregory Andres Garrido Briceño,OPER,Puchuncaví,15,2,13.3,2,BAJA
+13.715.353-K,Fabian Andrés Díaz Almuna,OPER,Maipú,15,2,13.3,2,BAJA
+16.274.456-9,Jose Valentin Vasquez Tapia,OPER,Linares,15,2,13.3,2,BAJA
+17.612.792-9,Cesar Andres Oyarzun Ortiz,OPER,Santiago,15,2,13.3,2,BAJA
+18.092.883-9,Carlos Alfredo Mendez Becerra,OPER,La Florida,15,1,6.7,1,BAJA
+11.972.233-0,Nelson Enrique Chanalet Orellana,OPER,Santiago,15,0,0.0,0,BAJA
+12.828.270-K,Carlos Germain Martinez Perez,OPER,Constitución,15,0,0.0,0,BAJA
+12.862.451-1,Alejandro Eliseo Borquez Riffo,OPER,Puente Alto,15,0,0.0,0,BAJA
+13.024.534-K,Eduardo Romelio Bernal Diaz,OPER,Viña del Mar,15,0,0.0,0,BAJA
+13.039.057-9,Guillermo Aquiles Briones Rodriguez,OPER,Peñalolén,15,0,0.0,0,BAJA
+13.065.946-2,Rolando Miguel Diaz Cabrera,OPER,Macul,15,0,0.0,0,BAJA
+13.074.071-5,Marcelo Cristian Castillo Vidal,OPER,Puente Alto,15,0,0.0,0,BAJA
+13.579.386-8,Viviano Enrique Inzunza Salgado,OPER,Los Angeles,15,0,0.0,0,BAJA
+13.634.887-6,Rodrigo Iván Perez Gonzalez,OPER,Valparaiso,15,0,0.0,0,BAJA
+13.635.635-6,Julio Andrés Vera Villalobos,OPER,Santiago,15,0,0.0,0,BAJA
+13.763.324-8,Christian Andrés Arancibia Arancibia,OPER,Nogales,15,0,0.0,0,BAJA
+14.572.376-0,Eduardo Esteban Guzman Inostroza,OPER,Quillota,15,0,0.0,0,BAJA
+15.028.429-5,Guillermo Daniel Aravena Salaza,OPER,nan,15,0,0.0,0,BAJA
+15.094.284-5,Pablo Oriel Orrego Garcia,OPER,Nogales,15,0,0.0,0,BAJA
+15.206.758-5,Sergio Alfonso Vasquez Henriquez,OPER,Los Angeles,15,0,0.0,0,BAJA
+15.655.979-2,Cesar Eliazer Antivil Antivil,OPER,Los Angeles,15,0,0.0,0,BAJA
+15.787.896-4,Luis Norberto Jara Pizarro,OPER_OF,Paine,15,0,0.0,0,BAJA
+15.807.308-0,Miguel Angel Maturana Fernandez,OPER,nan,15,0,0.0,0,BAJA
+16.498.277-7,Jose Alexis Burgos Rosales,OPER,Quilleco,15,0,0.0,0,BAJA
+16.674.563-2,Hector Eduardo Acuña Pinares,OPER,Los Angeles,15,0,0.0,0,BAJA
+16.685.158-0,Carlos Antonio Barrera Garrido,OPER,Chillan,15,0,0.0,0,BAJA
+16.951.273-6,Ramon Enrique Tobar Saez,OPER,Santiago,15,0,0.0,0,BAJA
+17.027.903-4,Claudio Alejandro Barahona Mena,OPER,Maipú,15,0,0.0,0,BAJA
+17.047.863-0,Nicolas Antonio Gatica Olmos,OPER,San Miguel,15,0,0.0,0,BAJA
+17.063.203-6,Hector Andres Carrasco Jara,OPER,Santiago,15,0,0.0,0,BAJA
+17.522.413-0,Miguel Angel Guajardo Cisternas,OPER,Rancagua,15,0,0.0,0,BAJA
+17.551.788-K,Sergio Alejandro Araya Paredes,OPER_OF,Puente Alto,15,0,0.0,0,BAJA
+17.771.355-4,Eduardo Alexei Diaz San Martin,OPER,nan,15,0,0.0,0,BAJA
+17.836.192-9,Ermes Nicolas Emannuel Muñoz Diaz,OPER,Lo Prado,15,0,0.0,0,BAJA
+17.851.241-2,Daniel Esteban Toro Cid,OPER,Puente Alto,15,0,0.0,0,BAJA
+17.870.454-0,Jaime Octavio Hernandez Rosales,OPER,Los Angeles,15,0,0.0,0,BAJA
+18.021.783-5,Monica Emilia Peralta Zunino,OPER_OF,San Miguel,15,0,0.0,0,BAJA
+19.154.076-K,Nicolas Alexander Moya Toledo,OPER,Viña del mar,15,0,0.0,0,BAJA
+19.187.280-0,Camilo Alfredo Valdivia Valenzuela,OPER_OF,Quilicura,15,0,0.0,0,BAJA
+19.319.469-9,Jorge Alexander Riveros de la Torre,OPER,Santiago,15,0,0.0,0,BAJA
+19.372.658-5,Felipe Antonio Yañez Torres,OPER,nan,15,0,0.0,0,BAJA
+19.565.133-7,Marcelo Guillermo Azolas Araya,OPER,puente alto,15,0,0.0,0,BAJA
+19.792.618-K,Roberto Ignacio Valenzuela Rojo,OPER,Peñaflor,15,0,0.0,0,BAJA
+20.063.806-9,Jordán Rocher Torres Rifo,OPER,Lampa,15,0,0.0,0,BAJA
+20.177.794-1,Javier Ignacio Salinas Araya,OPER,Peumo,15,0,0.0,0,BAJA
+20.371.126-3,Jose Rolando Novoa Salas,OPER,Rancagua,15,0,0.0,0,BAJA
+20.403.372-2,Jose Alexis Bustos Covarrubias,OPER,Santiago,15,0,0.0,0,BAJA
+20.685.980-6,Francisco Jose Sandoval Barra,OPER,nan,15,0,0.0,0,BAJA
+20.904.001-8,Juan Cristobal Pino Navarro,OPER,Los Angeles,15,0,0.0,0,BAJA
+21.367.407-2,Gabriel Aram Aminadab Cadin Quintremil,OPER,Puente Alto,15,0,0.0,0,BAJA
+21.389.809-4,Mauricio Aron Valenzuela Román,OPER,SANTIAGO,15,0,0.0,0,BAJA
+21.411.358-9,Julian Jeremy Torres Rifo,OPER,Lampa,15,0,0.0,0,BAJA
+21.486.872-5,Benjamin Luciano Pino Navarro,OPER,Los angeles,15,0,0.0,0,BAJA
+21.528.121-3,John Francisco Antonio Leal Salinas,OPER,LAMPA,15,0,0.0,0,BAJA
+24.253.701-7,Federico José Carrera .,OPER,San Miguel,15,0,0.0,0,BAJA
+24.858.614-1,Bernardo Ariel Reyes Hernandez,OPER_OF,Quinta Normal,15,0,0.0,0,BAJA
+25.437.029-0,Ronald Jose Rodriguez Gonzalez,OPER,Iquique,15,0,0.0,0,BAJA
+25.679.284-2,Hector Eduardo Suarez Yaguache,OPER,Santiago,15,0,0.0,0,BAJA
+26.556.848-3,Jose Antonio Restrepo Acosta,OPER,San Joaquín,15,0,0.0,0,BAJA
+26.682.168-9,Anderson Enrique Tortoza Barreto,OPER,Cerro Navia,15,0,0.0,0,BAJA
+9.098.512-4,Fernando Dimas Lobos Gonzalez,OPER,Pudahuel,15,0,0.0,0,BAJA
+9.251.750-0,Juan Patricio Zuloaga Olave,OPER,Estación Central,15,0,0.0,0,BAJA

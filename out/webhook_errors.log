@@ -1,0 +1,56 @@
+
+================================================================================
+[import_pipeline] ERROR:
+Traceback (most recent call last):
+  File "C:\Users\ariel\Desktop\AgenteDisponibilidadPC\server.py", line 31, in _get_pipeline
+    from agent.ui import run_pipeline
+ModuleNotFoundError: No module named 'agent'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ariel\Desktop\AgenteDisponibilidadPC\server.py", line 84, in webhook
+    run_pipeline, RunOptions = _get_pipeline()
+  File "C:\Users\ariel\Desktop\AgenteDisponibilidadPC\server.py", line 33, in _get_pipeline
+    raise RuntimeError("No pude importar run_pipeline desde agent.ui") from e
+RuntimeError: No pude importar run_pipeline desde agent.ui
+
+EXTRA:
+{
+  "payload": {
+    "reorder_name_rut": true,
+    "download_from_github": true,
+    "format_rut": true,
+    "make_kpi_report": true,
+    "filter_valid_ruts": true,
+    "normalize_names": true
+  }
+}
+
+================================================================================
+[import_pipeline] ERROR:
+Traceback (most recent call last):
+  File "C:\Users\ariel\Desktop\AgenteDisponibilidadPC\server.py", line 31, in _get_pipeline
+    from agent.ui import run_pipeline
+ModuleNotFoundError: No module named 'agent'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ariel\Desktop\AgenteDisponibilidadPC\server.py", line 84, in webhook
+    run_pipeline, RunOptions = _get_pipeline()
+  File "C:\Users\ariel\Desktop\AgenteDisponibilidadPC\server.py", line 33, in _get_pipeline
+    raise RuntimeError("No pude importar run_pipeline desde agent.ui") from e
+RuntimeError: No pude importar run_pipeline desde agent.ui
+
+EXTRA:
+{
+  "payload": {
+    "reorder_name_rut": true,
+    "download_from_github": true,
+    "format_rut": true,
+    "make_kpi_report": true,
+    "filter_valid_ruts": true,
+    "normalize_names": true
+  }
+}

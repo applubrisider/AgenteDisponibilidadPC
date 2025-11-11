@@ -1,0 +1,24 @@
+# Reglas y parámetros del análisis
+ventana_dias: 30
+umbral_alta_dias: 7
+umbral_baja_dias: 4
+umbral_consecutivos: 3
+
+# Palabras clave que indican 'disponible' (insensible a mayúsculas/acentos, por inclusión)
+actividades_disponibles:
+  - DISPONIBLE
+
+email:
+  method: outlook            # outlook | smtp
+  to: ["areyes@lubrisider.cl"]
+  cc: []
+  subject_template: "Informe de disponibilidad {ini}–{fin}"
+  body_intro: "Adjunto informe generado por el Agente de Disponibilidad."
+
+  # Si quieres SMTP (Office 365), rellena esto y cambia method a "smtp"
+  smtp:
+    host: smtp.office365.com
+    port: 587
+    user: "areyes@lubrisider.cl"
+    password: "Sag09088"            # o dejar vacío y poner EMAIL_PASS en variables de entorno
+    starttls: true

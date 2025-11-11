@@ -1,0 +1,2466 @@
+[
+  {
+    "Name": "CON-2025-0163",
+    "Desc": "COT 2023280-00 / ODS_11 Tratamiento ATR1, ATR2 & T2 Tchitack",
+    "Code": "CON-2025-0163",
+    "Att1": "CODELCO - División Chuquicamata",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0155",
+    "Desc": "COT 2025304-01/Servicio de relleno de aceite Transformador T2/ Planta EKA Chile Talcahuano",
+    "Code": "SER-2025-0155",
+    "Att1": "EKA CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0122",
+    "Desc": "COT 2025502-00 REV.1 / Servicio de inspección y reparación de transformador N° de Serie 353290501 - 06836-TBT-01 de 2 MVA de 33/0.6 kV en taller",
+    "Code": "SER-2025-0122",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0156",
+    "Desc": "COT 2025755-00 / ODS 38_  Puesta en servicio T1 S/E Lixiviación (59274)",
+    "Code": "CON-2025-0156",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0119",
+    "Desc": "COT-2021101-02 / Asistencia de emergencia relleno de aceite transformadores del cicloconversor molinos 501 y 511 planta sag.",
+    "Code": "CON-2025-0119",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0059",
+    "Desc": "COT-2021101-02 / ODS_168 B Asistencia de emergencia transformadores T55, T56, T57 y T59",
+    "Code": "CON-2025-0059",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0027",
+    "Desc": "COT-2021101-02 / ODS_172 Pruebas a transformadores SE Traful Proyecto Andes Norte",
+    "Code": "CON-2025-0027",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0025",
+    "Desc": "COT-2021101-02 / ODS_175 Retiro de transformador Molino Unitario y posicionamiento de nuevo transformador",
+    "Code": "CON-2025-0025",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0026",
+    "Desc": "COT-2021101-02 / ODS_176 Mantenimiento básico de transformador Molino Unitario en Trafo Energy",
+    "Code": "CON-2025-0026",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0051",
+    "Desc": "COT-2021101-02 / ODS_181 Asistencia a transformador T31 para toma de muestra, pruebas eléctricas y retiro para revisión en taller.",
+    "Code": "CON-2025-0051",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0052",
+    "Desc": "COT-2021101-02 / ODS_182 Reparación de dos TTPP Westinghouse 66kV, en taller Lubrisider.",
+    "Code": "CON-2025-0052",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0053",
+    "Desc": "COT-2021101-02 / ODS_183 Reparación de filtración y pruebas básicas a Transformador T56",
+    "Code": "CON-2025-0053",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0055",
+    "Desc": "COT-2021101-02 / ODS_184 Inspección y relleno de aceite TCOM 1 y 2",
+    "Code": "CON-2025-0055",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0058",
+    "Desc": "COT-2021101-02 / ODS_185 Reparación en taller Lubrisider Transformador T31",
+    "Code": "CON-2025-0058",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0063",
+    "Desc": "COT-2021101-02 / ODS_186 Retiro de aceite y toma de muestra a transformadores T3 y T5 nuevos.",
+    "Code": "CON-2025-0063",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0070",
+    "Desc": "COT-2021101-02 / ODS_187 Pruebas preliminares a transformadores T3 y T5 nuevos SE Colina",
+    "Code": "CON-2025-0070",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0071",
+    "Desc": "COT-2021101-02 / ODS_188 Toma de muestras a 10 bins de transformadores T3 y T5 nuevos SE Colina",
+    "Code": "CON-2025-0071",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0072",
+    "Desc": "COT-2021101-02 / ODS_189 Relleno y tratamiento de aceite a transformadores T3 y T5 nuevos SE Colina",
+    "Code": "CON-2025-0072",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0073",
+    "Desc": "COT-2021101-02 / ODS_190 Pruebas a transformadores T3 y T5 nuevos SE Colina",
+    "Code": "CON-2025-0073",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0074",
+    "Desc": "COT-2021101-02 / ODS_191 Retiro total de aceite transformador T5 antiguo SE Colina",
+    "Code": "CON-2025-0074",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0078",
+    "Desc": "COT-2021101-02 / ODS_192 Retiro total de aceite transformador T4 antiguo SE Colina",
+    "Code": "CON-2025-0078",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0085",
+    "Desc": "COT-2021101-02 / ODS_193 Tomas de muestras Codelco Teniente",
+    "Code": "CON-2025-0085",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0086",
+    "Desc": "COT-2021101-02 / ODS_194 Servicio de emergencia nocturno transformador vdf 507, N°20010009-02",
+    "Code": "CON-2025-0086",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0048",
+    "Desc": "COT-2021101-02 / ODS_195 Servicio de emergencia retiro transformador vdf 507, N°20010009-02",
+    "Code": "CON-2025-0048",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0091",
+    "Desc": "COT-2021101-02 / ODS_196 Mantenimiento correctivo Básico transformador seco vdf 507, N°20010009-02 en taller Lubrisider",
+    "Code": "CON-2025-0091",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0097",
+    "Desc": "COT-2021101-02 / ODS_197 Inspección y pruebas eléctricas transformador seco ABB N°76070 en taller Lubrisider",
+    "Code": "CON-2025-0097",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0100",
+    "Desc": "COT-2021101-02 / ODS_198 Toma de muestras Planta RAG",
+    "Code": "CON-2025-0100",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0105",
+    "Desc": "COT-2021101-02 / ODS_199 Toma de muestra Interruptores",
+    "Code": "CON-2025-0105",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0106",
+    "Desc": "COT-2021101-02 / ODS_200 Pruebas eléctricas Transformador T8",
+    "Code": "CON-2025-0106",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0107",
+    "Desc": "COT-2021101-02 / ODS_201 Toma de muestras al interior mina",
+    "Code": "CON-2025-0107",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0110",
+    "Desc": "COT-2021101-02 / ODS_202 Reparación de transformadores Molino Unitario",
+    "Code": "CON-2025-0110",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0123",
+    "Desc": "COT-2021101-02 / ODS_204 Retiro de aceite Transformador T3 antiguo en SE Colina",
+    "Code": "CON-2025-0123",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0129",
+    "Desc": "COT-2021101-02 / ODS_205 Reparación de sello de escotilla superior transformador T39 en Subestación Cordillera",
+    "Code": "CON-2025-0129",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0130",
+    "Desc": "COT-2021101-02 / ODS_206 Relleno de aceite transformadores del cicloconversor molinos 501, 511, 512 planta SAG",
+    "Code": "CON-2025-0130",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0133",
+    "Desc": "COT-2021101-02 / ODS_207 Toma de muestras transformadores T4 y T2 Subestación El Cobre",
+    "Code": "CON-2025-0133",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0135",
+    "Desc": "COT-2021101-02 / ODS_208 Mantenimiento básico y pruebas eléctricas Transformadores 220-US-03 y 220-US-04 Planta Chancado Secundario",
+    "Code": "CON-2025-0135",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0136",
+    "Desc": "COT-2021101-02 / ODS_209 Mantenimiento y pruebas eléctricas Transformador 2 Molino Unitario",
+    "Code": "CON-2025-0136",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0139",
+    "Desc": "COT-2021101-02 / ODS_210 Servicio de reparación de transformador seco ABB N° 76070 – 2.200 kVA – 4.160 V en taller.",
+    "Code": "CON-2025-0139",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0140",
+    "Desc": "COT-2021101-02 / ODS_211 Mantenimiento básico y pruebas eléctricas Transformador T59",
+    "Code": "CON-2025-0140",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0149",
+    "Desc": "COT-2021101-02 / ODS_212 Pruebas eléctricas Transformador T3 SE Colina (solo bushings)",
+    "Code": "CON-2025-0149",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0153",
+    "Desc": "COT-2021101-02 / ODS_213 Toma de muestra Transformador T3 SE Colina",
+    "Code": "CON-2025-0153",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0154",
+    "Desc": "COT-2021101-02 / ODS_214 Mantenimiento básico, toma de muestra y pruebas eléctricas a cuatro transformadores",
+    "Code": "CON-2025-0154",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0157",
+    "Desc": "COT-2021101-02 / ODS_216 Limpieza y reapriete de pernos de transformador T3 SE Sewell por filtraciones de aceite",
+    "Code": "CON-2025-0157",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0158",
+    "Desc": "COT-2021101-02 / ODS_217 Inspección y relleno de aceite en transformador T4 y T2 además de otras actividades",
+    "Code": "CON-2025-0158",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0161",
+    "Desc": "COT-2021101-02 / ODS_218 Toma de muestra Transformador T3 SE Colina",
+    "Code": "CON-2025-0161",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0164",
+    "Desc": "COT-2021101-02 / ODS_219 Toma de muestra a tambores de aceite",
+    "Code": "CON-2025-0164",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0054",
+    "Desc": "COT-2021101-02 / ODS_76 Pruebas Eléctricas y toma de muestra Transformador TM2 SAG",
+    "Code": "CON-2025-0054",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0057",
+    "Desc": "COT-2021101-02 / ODS_77 Asistencia de urgencia por pruebas eléctricas a dos transformadores 1MVA",
+    "Code": "CON-2025-0057",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0064",
+    "Desc": "COT-2021101-02 / ODS_78 Inspección de transformador 5 MVA por bobina quemada",
+    "Code": "CON-2025-0064",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0081",
+    "Desc": "COT-2021101-02 / ODS_79 Inspección y mantenimiento básico de transformador 15 MVA, RHONA N° 18820 en taller Lubrisider",
+    "Code": "CON-2025-0081",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0082",
+    "Desc": "COT-2021101-02 / ODS_80 Urgencia por ayuda en retiro de radiadores en transformador TM2 que llegara a taller.",
+    "Code": "CON-2025-0082",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0088",
+    "Desc": "COT-2021101-02 / ODS_81 Servicio de toma de muestras",
+    "Code": "CON-2025-0088",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0096",
+    "Desc": "COT-2021101-02 / ODS_82 Reparación Transformador 25 kVA Seco N°33532 en taller Lubrisider",
+    "Code": "CON-2025-0096",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0098",
+    "Desc": "COT-2021101-02 / ODS_83 Trabajos por parada de planta Julio 2025",
+    "Code": "CON-2025-0098",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0103",
+    "Desc": "COT-2021101-02 / ODS_84 Servicio de Mantenimiento Correctivo Transformador TM2 en Taller Lubrisider.",
+    "Code": "CON-2025-0103",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0125",
+    "Desc": "COT-2021101-02 / ODS_85 Retiro de silicona de transformador H. Briones, 1250 kVA N°4851 mina rajo e inspección de indicador de aceite de transformador en poste",
+    "Code": "CON-2025-0125",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0128",
+    "Desc": "COT-2021101-02 / ODS_86 Inspección de indicador de aceite y/o relleno de transformador en poste.",
+    "Code": "CON-2025-0128",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0150",
+    "Desc": "COT-2021101-02 / ODS_87 Apoyo y relleno de silicona a transformador TM2, RHONA, 15.000 / 16.800 / 22.400 kVA, N°18820",
+    "Code": "CON-2025-0150",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0089",
+    "Desc": "COT-2021101-02 / Servicio de emergencia retiro transformador vdf 507, N°20010009-02",
+    "Code": "CON-2025-0089",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0113",
+    "Desc": "COT-2021101-02 / Suministro de materiales de acrilo nitrilo",
+    "Code": "CON-2025-0113",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0159",
+    "Desc": "COT-2021349-11 / ODS 67 _ SD LS 031225",
+    "Code": "CON-2025-0159",
+    "Att1": "Minera Escondida BHP MEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0112",
+    "Desc": "COT-2022398-01 / ODS_13 Pruebas de emergencia transformadores GFUN",
+    "Code": "CON-2025-0112",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0034",
+    "Desc": "COT-2023307-00 / ODS_12 Trabajos anuales de muestras de aceite y mediciones de malla a tierra",
+    "Code": "CON-2025-0034",
+    "Att1": "MINERA ANTUCOYA",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0090",
+    "Desc": "COT-2023307-00 / ODS_14 Toma de muestra y análisis de aceite",
+    "Code": "CON-2025-0090",
+    "Att1": "MINERA ANTUCOYA",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0134",
+    "Desc": "COT-2023825-01/ODS_10 MM noviembre 2025 Planta GMD Minera Centinela/ Ctto. 4540007295",
+    "Code": "CON-2025-0134",
+    "Att1": "MINERA CENTINELA - Antofagasta Minerals",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0141",
+    "Desc": "COT-2025080-01 / ODS _27: TAG TCI-01. 1550 kVA, Bombas CI",
+    "Code": "CON-2025-0141",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA ACONCAGUA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0142",
+    "Desc": "COT-2025080-01 / ODS _28: TAG TCI-02. 250 kVA_ Bombas CI",
+    "Code": "CON-2025-0142",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA ACONCAGUA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0143",
+    "Desc": "COT-2025080-01 / ODS _29: TAG TRP-65_ 800 kVA_  S.H – 17 (T-3000)",
+    "Code": "CON-2025-0143",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA ACONCAGUA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0144",
+    "Desc": "COT-2025080-01 / ODS _30: TAG CT TRM2 (tap)",
+    "Code": "CON-2025-0144",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA ACONCAGUA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0145",
+    "Desc": "COT-2025080-01 / ODS _31: TAG TTE-05 _4000 kVA_ TTEE",
+    "Code": "CON-2025-0145",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA ACONCAGUA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0146",
+    "Desc": "COT-2025080-01 / ODS _32: TAG TRZ-21_2500 kVA_ S.H.5",
+    "Code": "CON-2025-0146",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA ACONCAGUA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0147",
+    "Desc": "COT-2025080-01 / ODS _33: TAG TRP-70_1500 kVA_S.H - 19",
+    "Code": "CON-2025-0147",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA ACONCAGUA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0165",
+    "Desc": "COT-2025080-01 / ODS15_Servicio de Mantención Correctiva  T2, Refinería Aconcagua.",
+    "Code": "CON-2025-0165",
+    "Att1": "ENAP REFINERIA ACONCAGUA - ERA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0150",
+    "Desc": "COT-2025128-01 / REEMPLAZO DE TPS DE TV Y TG",
+    "Code": "SER-2025-0150",
+    "Att1": "Engie",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0067",
+    "Desc": "COT-2025150-01 / Ser. de Mantención- CAPSTONE COPPER - MANTOS BLANCOS",
+    "Code": "SER-2025-0067",
+    "Att1": "Capstone Copper Mantos Blancos",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0041",
+    "Desc": "COT-2025169-00 / Ensayos Eléctricos a Transformador Seco Rhona de 2000 KVA 33/0,6 kV, Div. El Teniente",
+    "Code": "SER-2025-0041",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0058",
+    "Desc": "COT-2025238-00 / Ensayos Eléctricos a Transformador Seco Rhona de 1.250 KVA 33/0,6 kV",
+    "Code": "SER-2025-0058",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0113",
+    "Desc": "COT-2025249-01 / Servicio de Puesta en Servicio Transformador 5.9 MVA Rectificador 3 nave EW",
+    "Code": "SER-2025-0113",
+    "Att1": "COMPANIA MINERA LOMAS BAYAS",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0077",
+    "Desc": "COT-2025266-01 / Montaje, llenado y pruebas de dos (02) transformadores 220 / 33; 40 MVA en Subestación Mauro de Minera Los Pelambres.",
+    "Code": "SER-2025-0077",
+    "Att1": "COXABENGOA",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0064",
+    "Desc": "COT-2025275-00 / Armado de transformador seco COMTRAFO 33/0,6 kV – 2.000 KVA, en taller.",
+    "Code": "SER-2025-0064",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0108",
+    "Desc": "COT-2025291-00 / ODS 32_ENSAYOS ELECT Y TM_TAG 267502021",
+    "Code": "CON-2025-0108",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0089",
+    "Desc": "COT-2025321-02 / Servicio de mantención de SE principal 220 kV MB y mantención a transformadores",
+    "Code": "SER-2025-0089",
+    "Att1": "Capstone Copper Mantos Blancos",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0092",
+    "Desc": "COT-2025366-00 / Repetición servicio de ensayos eléctricos a Transformador NT02",
+    "Code": "SER-2025-0092",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0073",
+    "Desc": "COT-2025366-00 / Servicio de Ensayos Eléctricos a Transformador NT02",
+    "Code": "SER-2025-0073",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0090",
+    "Desc": "COT-2025469-00 / Pruebas eléctricas a transformador seco",
+    "Code": "SER-2025-0090",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0091",
+    "Desc": "COT-2025478-00 / Garantía Trafo Chacabuco TR 3125 KVA, 23.000/600 V",
+    "Code": "SER-2025-0091",
+    "Att1": "TRAFO ENERGY S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0160",
+    "Desc": "COT-2025485-00 / Prueba eléctrica y análisis de aceite",
+    "Code": "SER-2025-0160",
+    "Att1": "COMPAÑIA MINERA ZALDIVAR",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0096",
+    "Desc": "COT-2025492-00 / Servicio de inspección visual de transformador, ubicado en Bodega Maitenes",
+    "Code": "SER-2025-0096",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0097",
+    "Desc": "COT-2025534-00 / Servicio de tratamiento de aceite para transformador 3.125 kVA 23 kV / 600 V, ubicados en PFV Chacabuco",
+    "Code": "SER-2025-0097",
+    "Att1": "ENFRAGEN",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0100",
+    "Desc": "COT-2025549-00 / Garantía retiro de transformador Chacabuco",
+    "Code": "SER-2025-0100",
+    "Att1": "TRAFO ENERGY S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0118",
+    "Desc": "COT-2025611-00 / Suministro de Aceite",
+    "Code": "SER-2025-0118",
+    "Att1": "ENFRAGEN",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0136",
+    "Desc": "COT-2025618-01 / Etapa 3 Adecuación en terreno Housing 110kV Booster 1",
+    "Code": "SER-2025-0136",
+    "Att1": "ENGIE TOCOPILLA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0117",
+    "Desc": "COT-2025647-01 / Servicio de reparación de cañería de conservador de transformador 6006 en taller.",
+    "Code": "SER-2025-0117",
+    "Att1": "COXABENGOA",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0142",
+    "Desc": "COT-2025653-01 - Carga y Traslado TR 300 kVA hacia PFV Tamaya - Engie - ETAPA 3",
+    "Code": "SER-2025-0142",
+    "Att1": "ENGIE",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0154",
+    "Desc": "COT-2025694-01 / Servicio de Mantenimiento Correctivo a Transformador TG1 de 283.590 kVA – 230 kV N° de Serie 9783672101, ubicado en Central San Isidro, Región de Valparaíso.",
+    "Code": "SER-2025-0154",
+    "Att1": "ENEL GENERACION CHILE S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0120",
+    "Desc": "COT-2025696-00 / Servicio de tratamiento de aceite para transformador 3.125 kVA 23 kV / 600 V, ubicados en PFV Chacabuco",
+    "Code": "SER-2025-0120",
+    "Att1": "ENFRAGEN",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0162",
+    "Desc": "COT-2025703-00/Servicio de entrega de Transformador  Varivolt 1368 kVA/AISLANTES VOLCAN S.A",
+    "Code": "SER-2025-0162",
+    "Att1": "AISLANTES VOLCAN S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0125",
+    "Desc": "COT-2025705-00 / Garantía Cerro Dominador / Eliminación de filtraciones Trafo Energy S.A.",
+    "Code": "SER-2025-0125",
+    "Att1": "TRAFO ENERGY S.A.",
+    "Att2": "Cristian Burgos"
+  },
+  {
+    "Name": "SER-2025-0129",
+    "Desc": "COT-2025713-00 - Nivelacion TRs SE Mauro",
+    "Code": "SER-2025-0129",
+    "Att1": "COXABENGOA",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0145",
+    "Desc": "COT-2025727-00 / Instalación y Armado 2 TR 230/33 kv 180 MVA PE FIDELIA",
+    "Code": "SER-2025-0145",
+    "Att1": "COXABENGOA",
+    "Att2": "Marcelo Adones - Contratos"
+  },
+  {
+    "Name": "SER-2025-0133",
+    "Desc": "COT-2025734-00 - Adicionales Improductividad Montaje 02 ATR SSEE Mauro",
+    "Code": "SER-2025-0133",
+    "Att1": "COXABENGOA",
+    "Att2": "Cristian Burgos"
+  },
+  {
+    "Name": "SER-2025-0110",
+    "Desc": "COT-2025752-00 / Descarga y posicionamiento garantía transformador Chacabuco ENFRAGEN",
+    "Code": "SER-2025-0110",
+    "Att1": "TRAFO ENERGY S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0143",
+    "Desc": "COT-2025753-00 - Pruebas Eléctricas TR MT PFV CEME 1 - María Elena + Toma de muestra",
+    "Code": "SER-2025-0143",
+    "Att1": "GENERADORA METROPOLITANA SPA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0152",
+    "Desc": "COT-2025766-00 / Reemplazo de radiador SE Cahuiza",
+    "Code": "SER-2025-0152",
+    "Att1": "BECHTEL",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0151",
+    "Desc": "COT-2025772-01 / Servicio de Asistencia técnica y retiro de muestra de papel de transformador marca OSAKA de 28 MVA, perteneciente a Central Queltehues",
+    "Code": "SER-2025-0151",
+    "Att1": "AES GENER",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0163",
+    "Desc": "COT-2025777-02/Mont, llenado y PPEE 1 Tr SS/EE Estela Solar, Pozo Almonte/Ferrovial",
+    "Code": "SER-2025-0163",
+    "Att1": "FERROVIAL ENERGIA, Manuel Toledo Grandon",
+    "Att2": "Sebastián Vera - Contratos"
+  },
+  {
+    "Name": "SER-2025-0165",
+    "Desc": "COT-2025846-00/Inspección, pruebas y norm niv aceite Tr SS/AA PFV Doña Antonia/Siemens",
+    "Code": "SER-2025-0165",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Sebastián Vera - Contratos"
+  },
+  {
+    "Name": "SER-2025-0164",
+    "Desc": "COT-2025870-01 / Servicio de ensayos eléctricos de transformador 220 / 33; 40 MVA",
+    "Code": "SER-2025-0164",
+    "Att1": "COXABENGOA",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0034",
+    "Desc": "COT-LB2025699-00 / Toma de muestra a 03 TR Proyecto Corso",
+    "Code": "LAB-2025-0034",
+    "Att1": "CAF TURNKEY & ENGINEERING, S.L., DE",
+    "Att2": "Marcelo Adones - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0035",
+    "Desc": "COT-LB2025699-00 / Toma de muestra a 03 TR Proyecto Talca",
+    "Code": "LAB-2025-0035",
+    "Att1": "CAF TURNKEY & ENGINEERING, S.L., DE",
+    "Att2": "Marcelo Adones - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0040",
+    "Desc": "COT-LB2025837-00 / Toma de muestras y análisis FQ+ CR/Planta Rocoto Talcahuano/ EKA CHILE S.A.",
+    "Code": "LAB-2025-0040",
+    "Att1": "EKA CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0043",
+    "Desc": "COT-LB2025851-00 / Toma de muestra 1 TR SE San Pablo",
+    "Code": "LAB-2025-0043",
+    "Att1": "HITACHI ENERGY CHILE S.A.",
+    "Att2": "Sebastián Vera - Contratos"
+  },
+  {
+    "Name": "SER-2025-0108",
+    "Desc": "PENDIENTE / Inspección Visual a transformador con falla al interior mina Codelco Teniente",
+    "Code": "SER-2025-0108",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0069",
+    "Desc": "COT-2025114-02 / ODS_01 Chequeo de fugas y tratamiento de aceite",
+    "Code": "CON-2025-0069",
+    "Att1": "SIERRA GORDA SOCIEDAD CONTRACTUAL MINERA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0018",
+    "Desc": "COT-2021101-02 / ODS_73 Trabajos por parada de planta Abril 2025",
+    "Code": "CON-2025-0018",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0106",
+    "Desc": "COT-2025278-00 / Descarga e Inspección TR 25MVA",
+    "Code": "SER-2025-0106",
+    "Att1": "ANGLO AMERICAN SUR S.A.",
+    "Att2": "Marcelo Adones - Contratos"
+  },
+  {
+    "Name": "SER-2025-0061",
+    "Desc": "COT-2025140-00 / SERV. MANTENIMIENTO CTBC TRANSFORMADOR REGULADOR",
+    "Code": "SER-2025-0061",
+    "Att1": "ENEL",
+    "Att2": "Sebastián Vera - Contratos"
+  },
+  {
+    "Name": "SER-2025-0094",
+    "Desc": "COT-2025417-00 / Medición Resistencia Aislación",
+    "Code": "SER-2025-0094",
+    "Att1": "Generacion Solar SpA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0085",
+    "Desc": "COT-2025334-00 / Adicionales Mantencion TR 2 MVA - Antay",
+    "Code": "SER-2025-0085",
+    "Att1": "ENFRAGEN",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0084",
+    "Desc": "COT-2025375-00 / Mantención correctiva TR  3125 KVA, 23.000/600 Volts.",
+    "Code": "SER-2025-0084",
+    "Att1": "ENFRAGEN",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0086",
+    "Desc": "COT-2025388-00 / Ensayos eléctricos TR 3125 kVA Chacabuco",
+    "Code": "SER-2025-0086",
+    "Att1": "ENFRAGEN",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0018",
+    "Desc": "COT-LB2025297-01 / 01 Toma de Muestra Cerro Dominador",
+    "Code": "LAB-2025-0018",
+    "Att1": "ACCIONA CERRO DOMINADOR",
+    "Att2": "Marcelo Adones - Contratos"
+  },
+  {
+    "Name": "CON-2025-0127",
+    "Desc": "COT 2025755-00 / ODS 37 _ Inspección y Diagnostico  + Reparación de Transformadores MT en taller.",
+    "Code": "CON-2025-0127",
+    "Att1": "CORPORACION NACIONAL DEL COBRE DE CHILE, DIVISIÓN EL SALVADOR (DSAL)",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0152",
+    "Desc": "COT-2023280-01/ODS#10 Mantenimiento Correctivo en Taller/ TR Rectificador E /CODELCO - División Chuquicamata (CHQ)",
+    "Code": "CON-2025-0152",
+    "Att1": "CORPORACION NACIONAL DEL COBRE DE CHILE, DIVISIÓN CHUQUICAMATA (DCH)",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0095",
+    "Desc": "COT-2025243-00 / Serv. Mantención correctiva de Tr, CH, de 750 KVA_ (PPT-2025037-00)",
+    "Code": "SER-2025-0095",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0074",
+    "Desc": "COT-2025346-00 / Servicio de descarga y posicionamiento de dos (02) transformador 220 / 33; 40 MVA en Subestación Mauro de Minera Los Pelambres.",
+    "Code": "SER-2025-0074",
+    "Att1": "COXABENGOA",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0135",
+    "Desc": "COT-2025618-01 / Etapa 2 Fabricación Housing 110kV Booster 1",
+    "Code": "SER-2025-0135",
+    "Att1": "ENGIE TOCOPILLA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0158",
+    "Desc": "COT-2025812-01/Servicios adicionales Mtto. Transformador Varivolt 1386 KVA/ Aislantes Volcán S.A.",
+    "Code": "SER-2025-0158",
+    "Att1": "AISLANTES VOLCAN S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0156",
+    "Desc": "COT-2025830-00 / Cambio de Transformador MT La Peña Nogales / Partiluz S.A.",
+    "Code": "SER-2025-0156",
+    "Att1": "Partiluz SA",
+    "Att2": "Sebastián Vera - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0029",
+    "Desc": "COT-LB2025239-01/ Servicio toma de muestras y Análisis área MET y OXE / Minera Centinela",
+    "Code": "LAB-2025-0029",
+    "Att1": "MINERA CENTINELA - Antofagasta Minerals",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0155",
+    "Desc": "COT-2025123-01 / Servicio de Garantía CON-2025-0067 Reparación Trafo Maria Elena",
+    "Code": "CON-2025-0155",
+    "Att1": "SQM INDUSTRIAL S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0068",
+    "Desc": "COT-2025257-01 / Cambio Empaquetadura Transf/Rec 221-BC1",
+    "Code": "SER-2025-0068",
+    "Att1": "OCCIDENTAL CHEMICAL CHILE",
+    "Att2": "Sebastián Vera - Contratos"
+  },
+  {
+    "Name": "SER-2025-0149",
+    "Desc": "COT-2025717-02 / Normalización Conservador y mantención CTBC Booster 1, con Tratamiento",
+    "Code": "SER-2025-0149",
+    "Att1": "ENGIE ENERGIA CHILE - Antofagasta",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0115",
+    "Desc": "COT-2025597-01 / Suministro Bolsa Goma ENGIE PEMR",
+    "Code": "SER-2025-0115",
+    "Att1": "ENGIE ENERGIA CHILE - Monte Redondo",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0070",
+    "Desc": "COT-2025283-00 / Servicio de Traslado, Inspeccion y Diagnostico / ENFRAGEN",
+    "Code": "SER-2025-0070",
+    "Att1": "ENFRAGEN",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0069",
+    "Desc": "COT-2025329-03 / Serv. Ensayos Electricos / PRIME Chacabuco",
+    "Code": "SER-2025-0069",
+    "Att1": "ENFRAGEN",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0010",
+    "Desc": "COT-LB2025242-01 (ítem 1) / Toma de Muestras - ELECNOR CHILE",
+    "Code": "LAB-2025-0010",
+    "Att1": "ELECNOR CHILE",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "CON-2025-0024",
+    "Desc": "COT-2021101-02 / ODS_174 Pruebas eléctricas y análisis de aceite a transformador de reemplazo Molino Unitario",
+    "Code": "CON-2025-0024",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0044",
+    "Desc": "COT-2021101-02 / ODS_75 Mantenimiento correctivo Básico dos Transformador 25 kVA Seco en taller Lubrisider",
+    "Code": "CON-2025-0044",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0023",
+    "Desc": "COT-2021101-02 / ODS_173 Relleno de aceite a transformadores TCOM",
+    "Code": "CON-2025-0023",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0005",
+    "Desc": "COT-2021101-02 / ODS_168 Parada de planta actividades MMSAG y MGA 2025",
+    "Code": "CON-2025-0005",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0031",
+    "Desc": "COT-2024808-01 / Mantención de Salas Eléctricas y Switchgear",
+    "Code": "SER-2025-0031",
+    "Att1": "Capstone Copper Mantos Blancos",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0009",
+    "Desc": "COT-2021101-02 / ODS_170 Reparación de bombas, tratamiento de aceite y pruebas eléctricas a TR T5 SEColina",
+    "Code": "CON-2025-0009",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0037",
+    "Desc": "COT-2025076-01 / Inspección y diagnóstico de falla de transformador TAG 02372-TBT-03 en Taller",
+    "Code": "SER-2025-0037",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0115",
+    "Desc": "COT-2021349-11  / ODS 65 _ Cambios de empaques de los bushingsde los Trafos  T1,T2 y T4",
+    "Code": "CON-2025-0115",
+    "Att1": "MINERA ESCONDIDA BHP Billiton",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0079",
+    "Desc": "COT-2021349-11 / ODS 59_ SD LS L1_25 DE JUNIO",
+    "Code": "CON-2025-0079",
+    "Att1": "Minera Escondida BHP MEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0104",
+    "Desc": "COT-2021349-11 / ODS 62 _ SD LC L1 - 6 Ago",
+    "Code": "CON-2025-0104",
+    "Att1": "MINERA ESCONDIDA BHP Billiton",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0109",
+    "Desc": "COT-2021349-11 / ODS 63_ SD LC L2_27 DE AGOSTO",
+    "Code": "CON-2025-0109",
+    "Att1": "MINERA ESCONDIDA BHP Billiton",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0111",
+    "Desc": "COT-2021349-11 / ODS 64 _ OUT LS L1 22 DE AGOSTO",
+    "Code": "CON-2025-0111",
+    "Att1": "MINERA ESCONDIDA BHP Billiton",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0126",
+    "Desc": "COT-2021349-11 / ODS 66 _ Outage CLS L2 - 01 Octubre",
+    "Code": "CON-2025-0126",
+    "Att1": "Minera Escondida BHP MEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0132",
+    "Desc": "COT-2023022-00 / ODS 09_ Regeneración Planta Concentradora",
+    "Code": "CON-2025-0132",
+    "Att1": "Minera caserones",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0114",
+    "Desc": "COT-2023280-01/Cambio de empaques TR101 y TR102/ Codelco CDCH 4600027300 / MGA",
+    "Code": "CON-2025-0114",
+    "Att1": "CODELCO - División Chuquicamata",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0105",
+    "Desc": "COT-2023280-01/ODS_8 Ensayos Eléctricos en terreno /CODELCO - División Chuquicamata (CHQ)",
+    "Code": "SER-2025-0105",
+    "Att1": "CORPORACION NACIONAL DEL COBRE DE CHILE, DIVISIÓN CHUQUICAMATA (DCH)",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0116",
+    "Desc": "COT-2023537-04 / ODS 35_ Serv. Montaje de Sistema de Control, para 3 c/u SEU 500kVA",
+    "Code": "CON-2025-0116",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0139",
+    "Desc": "COT-2023603-01_Candelaria /  Rep. filtración Transformador XF16 Planta Concentradora. (Garantía)",
+    "Code": "SER-2025-0139",
+    "Att1": "CANDELARIA LUNDIN MINING",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0066",
+    "Desc": "COT-2023643-05 / ODS_32 Toma muestras PCB y Limp. Bateas / Enel Distribución",
+    "Code": "CON-2025-0066",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0083",
+    "Desc": "COT-2023643-05 / ODS_33 Toma muestras PCB / Enel Distribución / Inspección y diagnóstico 2 TD",
+    "Code": "CON-2025-0083",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0095",
+    "Desc": "COT-2023643-05 / ODS_35 Toma de muestras PCB y limpieza de bateas / Enel Distribución",
+    "Code": "CON-2025-0095",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0118",
+    "Desc": "COT-2023643-05 / ODS_36 Toma de muestras PCB y limpieza de bateas / Enel Distribución",
+    "Code": "CON-2025-0118",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Cristian Burgos"
+  },
+  {
+    "Name": "CON-2025-0160",
+    "Desc": "COT-2023643-05/ ODS# 42 Toma de muestras y Análisis de PCB / Enel Distribución",
+    "Code": "CON-2025-0160",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0148",
+    "Desc": "COT-2023643-05/ ODS#40_Toma de muestras PBC Los Fresnos/Enel Distribución",
+    "Code": "CON-2025-0148",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0124",
+    "Desc": "COT-2023643-05/ODS#37_Toma de PCB y Diagnósticos TD Los Fresnos/ Enel Distribución",
+    "Code": "CON-2025-0124",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0138",
+    "Desc": "COT-2023643-05/ODS#39_Análisis Individuales de PCB Lito/Enel Distribución",
+    "Code": "CON-2025-0138",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0162",
+    "Desc": "COT-2023643-05/ODS#43 Análisis de PCB/ Enel Distribución",
+    "Code": "CON-2025-0162",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0056",
+    "Desc": "COT-2024607-00 / ODS_25 Mantenimiento Correctivo ATR _ S CDXS 01-2023_ Enel Distribución",
+    "Code": "SER-2025-0056",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0068",
+    "Desc": "COT-2025080-01 / ODS _21: Servicio de cambio aceite 6 Tr / Topping 1",
+    "Code": "CON-2025-0068",
+    "Att1": "ENAP REFINERIA ACONCAGUA - ERA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0102",
+    "Desc": "COT-2025225-00 / ODS 02_ Serv. de inspección y cambio de CST de Tr66 / 13.2 kV; 20 MVA, marca WEG (Etapa II_Taller)",
+    "Code": "SER-2025-0102",
+    "Att1": "WEG CHILE SPA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0103",
+    "Desc": "COT-2025225-00 / ODS 03_ Servicio de traslado y armado de Transformador 66 / 13.2 kV; 20 MVA, marca WEG",
+    "Code": "SER-2025-0103",
+    "Att1": "WEG CHILE SPA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0117",
+    "Desc": "COT-2025291-00 / ODS  36_ CAMBIO ACEITE 03800-SEU-001 (07217710) FR3",
+    "Code": "CON-2025-0117",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0121",
+    "Desc": "COT-2025291-00 / ODS 33 _ RELLENO DE ACEITE TR DISTRIBUCION EEBB",
+    "Code": "CON-2025-0121",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0083",
+    "Desc": "COT-2025430-00 / ODS 34_Inspección y Diagnóstico en terreno (Renca)/Enel Distribución.",
+    "Code": "SER-2025-0083",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0153",
+    "Desc": "COT-2025491-02 / Insp y Diagnóstico TR33/NORDEX Parque Eo. Los Olmos",
+    "Code": "SER-2025-0153",
+    "Att1": "NORDEX ENERGY CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0157",
+    "Desc": "COT-2025536-01 / Inspección y Diagnóstico de Bushing",
+    "Code": "SER-2025-0157",
+    "Att1": "HITACHI ENERGY CHILE S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0151",
+    "Desc": "COT-2025643-05/ODS#41 Análisis de PCB /Enel Distribución",
+    "Code": "CON-2025-0151",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0121",
+    "Desc": "COT-2025665-01 / Serv.de eliminación de filtraciones y Tto de aceite  tr de 95 MVA 220 / 12 kV, ubicado en Central Alfalfal.",
+    "Code": "SER-2025-0121",
+    "Att1": "AES GENER - Cordillera",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0123",
+    "Desc": "COT-2025702-00 / Etapa 1 Servicio de Inspección para cambio Bushings AT - ENEL MEJILLONES",
+    "Code": "SER-2025-0123",
+    "Att1": "ENEL GENERACION",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0137",
+    "Desc": "COT-2025703-00/Servicio de Traslados, arriendo de taller y apoyo técnico TR Varivolt 1368 kVA/AISLANTES VOLCAN S.A.",
+    "Code": "SER-2025-0137",
+    "Att1": "AISLANTES VOLCAN S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0131",
+    "Desc": "COT-2025763-01/ODS#38_Capacitación Enel Distribución",
+    "Code": "CON-2025-0131",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0146",
+    "Desc": "COT-2025768-00/Servicio de eliminación de filtraciones TR ABB 800 KVA/ Electroweather S.A. Antofagasta",
+    "Code": "SER-2025-0146",
+    "Att1": "ELECTROWEATHER S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0159",
+    "Desc": "COT-2025810-00/ Suministro 1400 litros de Aceite Dieléctrico Hyvolt I / Aislantes Volcán S.A.",
+    "Code": "SER-2025-0159",
+    "Att1": "AISLANTES VOLCAN S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0032",
+    "Desc": "COT-LB2025217-00 - TM Y AN a 02 TR SSEE Puerto - Proyecto C20+",
+    "Code": "LAB-2025-0032",
+    "Att1": "BECHTEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0033",
+    "Desc": "COT-LB2025218-00 - TM Y AN a 02 TR SSEE Caliche - Proyecto C20+",
+    "Code": "LAB-2025-0033",
+    "Att1": "BECHTEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0020",
+    "Desc": "COT-LB2025590-00/ Servicio de toma de muestra y análisis TR 27/18 KVA _SIEMENS ENERGY S.A.",
+    "Code": "LAB-2025-0020",
+    "Att1": "SIEMENS ENERGY SA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0041",
+    "Desc": "COT-LB2025838-00/ Tomas de muestra y Análisis 02 Transformadores/BRAUX Construcciones Renovables SpA.",
+    "Code": "LAB-2025-0041",
+    "Att1": "BRAUX ENERGY GROUP",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0039",
+    "Desc": "COT-2025377-01 / ODS_04 PFV Guanchoi 17 TM",
+    "Code": "LAB-2025-0039",
+    "Att1": "ENEL GREEN POWER GUANCHOI",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0042",
+    "Desc": "COT-2025046-00 / Inspección y Diagnóstico ATR PM 1 serie 233012013 Enel Distribución",
+    "Code": "SER-2025-0042",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0107",
+    "Desc": "COT-2025405-00 / Mtto Transformadores CTM3, TG y TV.",
+    "Code": "SER-2025-0107",
+    "Att1": "ENGIE ENERGIA CHILE - Mejillones",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0072",
+    "Desc": "COT 2024710-00 Rev.1 / Transformador MT–7.5 MVA.",
+    "Code": "SER-2025-0072",
+    "Att1": "CIA CONTRACTUAL MINERA CANDELARIA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0043",
+    "Desc": "COT-2025051-00 / Inspección y Diagnóstico ATR PM 2 serie 58420 Enel Distribución",
+    "Code": "SER-2025-0043",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0141",
+    "Desc": "COT-2025653-01 - Inspección y Diagnostico TR 300 kVA PFV Tamaya - Engie - ETAPA 2",
+    "Code": "SER-2025-0141",
+    "Att1": "ENGIE",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0111",
+    "Desc": "COT-2024541-01 / Repuestos Bolsas de goma ENGIE Tocopilla",
+    "Code": "SER-2025-0111",
+    "Att1": "ENGIE ENERGIA CHILE - Antofagasta",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0044",
+    "Desc": "COT-2025176-00 / Reparación de bisagra ATR PM 3 Serie 244382015 Enel Distribución",
+    "Code": "SER-2025-0044",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0037",
+    "Desc": "COT-LB2025465-02 / 08 TM PFV Sol de Lila + medición en terreno",
+    "Code": "LAB-2025-0037",
+    "Att1": "ENEL GREEN POWER SOL LILA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0038",
+    "Desc": "COT-LB2025785-00 / 52 TM CMPC Planta Pacifico",
+    "Code": "LAB-2025-0038",
+    "Att1": "CMPC planta Pacifico",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0120",
+    "Desc": "COT-LB2023880-01 / ODS_07 Toma de muestra 03 Trafos",
+    "Code": "CON-2025-0120",
+    "Att1": "SQM INDUSTRIAL S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0036",
+    "Desc": "COT-2021101-02 / ODS_ 179 Pruebas eléctricas y toma de muestra urgente transformador 110-XF-05 planta ACB",
+    "Code": "CON-2025-0036",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0079",
+    "Desc": "COT-2025330-00 / Servicio de Integración Metalmecánica de Subestación Unitaria. (Taller) / Codelco DSAL",
+    "Code": "SER-2025-0079",
+    "Att1": "MAESTRANZA Y MECANIZADOS LIMITADA.",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0140",
+    "Desc": "COT-2025653-01 - Carga y Traslado TR 300 kVA desde PFV Tamaya - Engie - ETAPA 1",
+    "Code": "SER-2025-0140",
+    "Att1": "ENGIE",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0035",
+    "Desc": "COT-2021101-02 / ODS_74 Inspección a Transformador TM6",
+    "Code": "CON-2025-0035",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0080",
+    "Desc": "COT-2025340-00 / Suministro de Instrumentos de Transformador para Integración de Subestación Unitaria",
+    "Code": "SER-2025-0080",
+    "Att1": "MAESTRANZA Y MECANIZADOS LIMITADA.",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0128",
+    "Desc": "COT-2025688-00 - Servicio de Cambio de Sellos Cañerias Superiores Interconexión TR (Ítem 1)",
+    "Code": "SER-2025-0128",
+    "Att1": "GEME - GENERADORA METROPOLITANA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0036",
+    "Desc": "COT-LB2025758-00 / 06 Medición humedad y rigidez + TM PFV Sol de Lila",
+    "Code": "LAB-2025-0036",
+    "Att1": "ENEL GREEN POWER",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0030",
+    "Desc": "COT-2025069-00 / SE Horizonte II Inspección y pruebas a 02 ATR",
+    "Code": "SER-2025-0030",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0013",
+    "Desc": "COT-2022398-01 / ODS_08 Mantenimiento parada de planta GFUN",
+    "Code": "CON-2025-0013",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0031",
+    "Desc": "COT-LB2025672-00 / 02 TM Molycop Mejillones",
+    "Code": "LAB-2025-0031",
+    "Att1": "MOLY COP CHILE S.A., Fabian Mora",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0029",
+    "Desc": "COT-2025069-00 / Puerto Antofagasta Inspección y pruebas a 02 ATR en",
+    "Code": "SER-2025-0029",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0015",
+    "Desc": "COT-LB2025118-02 / Analisis de aceites",
+    "Code": "LAB-2025-0015",
+    "Att1": "SIERRA GORDA SOCIEDAD CONTRACTUAL MINERA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0020",
+    "Desc": "COT-2022398-01 / ODS_12 Pruebas de emergencia transformador GFUN",
+    "Code": "SER-2025-0020",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0031",
+    "Desc": "COT-2021101-02 / ODS_178 Relleno e inspección de filtración transformador SIC 2",
+    "Code": "CON-2025-0031",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0030",
+    "Desc": "COT-2021101-02 / ODS_177 Toma de muestra transformador 250-US-110",
+    "Code": "CON-2025-0030",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0034",
+    "Desc": "COT-2025130-02 / Servicio de Asistencia en energización de Transformador Seco Rhona de 2000 KVA 33/0,6 kV",
+    "Code": "SER-2025-0034",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "SER-2025-0021",
+    "Desc": "COT-2025064-00 / Inspección 02 TR 300 KVA Minera SPENCE",
+    "Code": "SER-2025-0021",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0008",
+    "Desc": "COT-LB2021578-00 / ODS_62 Lab. Central Pilmaiquén / Enel Generación",
+    "Code": "LAB-2025-0008",
+    "Att1": "ENEL GENERACION",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0022",
+    "Desc": "COT-2025105-01 / Ensayos Eléctricos TR Seco",
+    "Code": "SER-2025-0022",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0001",
+    "Desc": "COT-2022398-01 / ODS_09 Personal fijo en terreno GFUN",
+    "Code": "CON-2025-0001",
+    "Att1": "CODELCO - División El Teniente (DET)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0056",
+    "Desc": "COT-2022059-00 / ODS _19 Servicio toma de Muestra y Análisis de Aceite",
+    "Code": "CON-2025-0056",
+    "Att1": "ENAP REFINERIA ACONCAGUA - ERA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0093",
+    "Desc": "COT 2025501-00 / ODS SN _ Servicio de fabricación de 03 mufas.",
+    "Code": "SER-2025-0093",
+    "Att1": "Constructura Tecnasic S.A.",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0094",
+    "Desc": "COT-2021349-11 / ODS 60_DGP LC 160625",
+    "Code": "CON-2025-0094",
+    "Att1": "MINERA ESCONDIDA BHP Billiton",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0047",
+    "Desc": "COT-2021349-11/ ODS 56_ Out LC L3-20 de Marzo",
+    "Code": "CON-2025-0047",
+    "Att1": "Minera Escondida BHP MEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0062",
+    "Desc": "COT-2021349-11/ ODS 57_OUT CLS L1 _23 de Abril",
+    "Code": "CON-2025-0062",
+    "Att1": "Minera Escondida BHP MEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0080",
+    "Desc": "COT-2021629-01 / ODS20_ Cambio de Aceite 2 tr SH-8 /MEROX",
+    "Code": "CON-2025-0080",
+    "Att1": "ENAP Bio Bio",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0099",
+    "Desc": "COT-2022059-00 / ODS 24 _ Tratamiento de Pintura Tr 1500 kVA Barrio Contratista",
+    "Code": "CON-2025-0099",
+    "Att1": "ENAP REFINERIA ACONCAGUA - ERA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0038",
+    "Desc": "COT-2023413-04 / ODS 54 / SD  LS L2 - 26 de Marzo",
+    "Code": "CON-2025-0038",
+    "Att1": "Minera Escondida BHP MEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0084",
+    "Desc": "COT-2023537-03 / ODS 23_ TM y Analisis de Aceite (SUMINISTROS)",
+    "Code": "CON-2025-0084",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0060",
+    "Desc": "COT-2023537-04 / ODS 25 Rev 1_ Mant. TR OCREV 68411_ 5500 kVA_Hidroelectrica Salvador",
+    "Code": "CON-2025-0060",
+    "Att1": "CORPORACION NACIONAL DEL COBRE DE CHILE, DIVISIÓN EL SALVADOR (DSAL)",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0041",
+    "Desc": "COT-2023537-04 / PPT - 2025029  / ODS 27_MANTENCION TALLER SEU 102",
+    "Code": "CON-2025-0041",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0042",
+    "Desc": "COT-2023537-04 / PPT - 2025030  / ODS 28_MANTENCION TALLER SEU 103",
+    "Code": "CON-2025-0042",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0040",
+    "Desc": "COT-2023537-04 / PPT- 2025028 / ODS 26_MANTENCION TALLER SEU 101",
+    "Code": "CON-2025-0040",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0032",
+    "Desc": "COT-2023643-05 / ODS_30 Diagnósticos ATRs (10u) Los Fresnos / Enel Distribución",
+    "Code": "CON-2025-0032",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0050",
+    "Desc": "COT-2023643-05 / ODS_31 Toma de muestras PCB Los Fresnos/ Enel Distribución",
+    "Code": "CON-2025-0050",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0045",
+    "Desc": "COT-2023825-01 / Mantenimiento Mayor mayo Planta GMD Contrato 4540007295 MCEN",
+    "Code": "CON-2025-0045",
+    "Att1": "MINERA CENTINELA - Antofagasta Minerals",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0046",
+    "Desc": "COT-2023825-02 / Mantenimiento Mayor mayo Planta Sulfuros Contrato 4540007296 MCEN",
+    "Code": "CON-2025-0046",
+    "Att1": "MINERA CENTINELA - Antofagasta Minerals",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0101",
+    "Desc": "COT-2023825-02/ SD agosto 2025 Planta Sulfuros MCEN",
+    "Code": "CON-2025-0101",
+    "Att1": "MINERA CENTINELA - Antofagasta Minerals",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0035",
+    "Desc": "COT-2023900-00 / ODS SN /SERV. SUMINISTRO y REEMPLAZO RELE SOBRE PRESION DE ACEITE EN PARQUE SAN PEDRO",
+    "Code": "SER-2025-0035",
+    "Att1": "ENGIE ENERGIA CHILE S.A.",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0093",
+    "Desc": "COT-2023958-00 / Despacho Transformador Schaffner (SER-2024-561)",
+    "Code": "CON-2025-0093",
+    "Att1": "Enap Aconcagua",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0052",
+    "Desc": "COT-2024607-00 / ODS_21 Mantenimiento Correctivo ATR _ S CDXS 01-2023_ Enel Distribución",
+    "Code": "SER-2025-0052",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0053",
+    "Desc": "COT-2024607-00 / ODS_22 Mantenimiento Correctivo ATR _ S CDXS 01-2023_ Enel Distribución",
+    "Code": "SER-2025-0053",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0054",
+    "Desc": "COT-2024607-00 / ODS_23 Mantenimiento Correctivo ATR _ S CDXS 01-2023_ Enel Distribución",
+    "Code": "SER-2025-0054",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0037",
+    "Desc": "COT-2024673-00 / ODS 8 / SD ABRIL 2025 (CONCENTRADORA)",
+    "Code": "CON-2025-0037",
+    "Att1": "Minera caserones",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0040",
+    "Desc": "COT-2025011-02 / ODS_1 Ferrovial Energía Servicio de llenado, tratamiento y ensayos eléctricos SE Palafitos Iquique",
+    "Code": "SER-2025-0040",
+    "Att1": "FERROVIAL ENERGIA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0138",
+    "Desc": "COT-2025056-02/Pruebas eléctricas 20 TRs/ Solarig Chile Energía y Serv. SpA /Rio Escondido",
+    "Code": "SER-2025-0138",
+    "Att1": "SOLARIG CHILE ENERGIA Y SERVICIOS SPA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0075",
+    "Desc": "COT-2025080-01 / ODS 22_Reparacion Caja de Conexión/ Toppin",
+    "Code": "CON-2025-0075",
+    "Att1": "ENAP REFINERIA ACONCAGUA - ERA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0039",
+    "Desc": "COT-2025095-00 / Ser. Manten y Ensayos - GEME Central Los Vientos",
+    "Code": "SER-2025-0039",
+    "Att1": "GEME Central Los Vientos",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0075",
+    "Desc": "COT-2025225-00 / Servicio de cambio de CST de Transformador WEG 20 MVA",
+    "Code": "SER-2025-0075",
+    "Att1": "WEG CHILE SPA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0062",
+    "Desc": "COT-2025233-01 / OC_4500044037 Siemens Energy Spa Pruebas ensayos SFRA 02 Transformadores MCEN",
+    "Code": "SER-2025-0062",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0065",
+    "Desc": "COT-2025282-00 /  Relleno - Tratamiento - Toma de Muestras Aceite / CEMENTOS MELON",
+    "Code": "SER-2025-0065",
+    "Att1": "CEMENTOS MELÓN",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "CON-2025-0076",
+    "Desc": "COT-2025291-00 / ODS 30_ Filtrado y Cambio de Aceite Tr aéreos Est. de Bombeo",
+    "Code": "CON-2025-0076",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0071",
+    "Desc": "COT-2025311-00 / Examenes Preocupacionales / CEMENTOS MELON",
+    "Code": "SER-2025-0071",
+    "Att1": "CEMENTOS MELÓN",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0076",
+    "Desc": "COT-2025326-01 / Serv. de Mantenimiento correctivo de 02 transformadores CHINT",
+    "Code": "SER-2025-0076",
+    "Att1": "ENGIE",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0087",
+    "Desc": "COT-2025408-00 / Servicio de Pruebas Eléctricas PFV Elena/Siemsa Chile",
+    "Code": "SER-2025-0087",
+    "Att1": "SIEMSA CHILE SPA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0082",
+    "Desc": "COT-2025424-00 rev.1 / Serv. Eliminación Filtración Bushing CH3 Transformador Principal Central Renca/ Generadora Metropolitana",
+    "Code": "SER-2025-0082",
+    "Att1": "GENERADORA METROPOLITANA SPA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0104",
+    "Desc": "COT-2025462-00/ Servicio de traslado e inspección de transformador de poder 10 MVA / SAESA SE Lo Aguirre",
+    "Code": "SER-2025-0104",
+    "Att1": "SAESA Tran Reg Metropolitana",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0098",
+    "Desc": "COT-2025477-01 / Garantía Cerro Dominador / Eliminación de filtraciones Trafo Energy S.A.",
+    "Code": "SER-2025-0098",
+    "Att1": "TRAFO ENERGY S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0124",
+    "Desc": "COT-2025663-00 / Garantía Cerro Dominador / Eliminación de filtraciones Trafo Energy S.A.",
+    "Code": "SER-2025-0124",
+    "Att1": "TRAFO ENERGY S.A.",
+    "Att2": "Cristian Burgos"
+  },
+  {
+    "Name": "SER-2025-0116",
+    "Desc": "COT-2025680-00 Adicionales Contrato CKI",
+    "Code": "SER-2025-0116",
+    "Att1": "CONSORCIO KIPREOS INPROLEC S.A.",
+    "Att2": "Cristian Burgos"
+  },
+  {
+    "Name": "SER-2025-0132",
+    "Desc": "COT-2025731-00/ Toma de muestra y relleno de aceite (Til Til) / Greentech Solutions SPA",
+    "Code": "SER-2025-0132",
+    "Att1": "GREENTECH SOLUTIONS SPA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0012",
+    "Desc": "COT-LB2024651-00 - CEMENTOS BIOBIO- Planta TENO -Toma de Muestras",
+    "Code": "LAB-2025-0012",
+    "Att1": "CBB CEMENTOS READYMIX LTD",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0009",
+    "Desc": "COT-LB2024732-00 / Ser. Toma de Muestras - Planta Arauco Valdivia (4 Contramuestras)",
+    "Code": "LAB-2025-0009",
+    "Att1": "CELULOSA ARAUCO Y CONSTITUCION S.A.",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0046",
+    "Desc": "COT-LB2024793-00 / Servicio toma de muestra y análisis de aceite a 59 transformadores",
+    "Code": "SER-2025-0046",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0023",
+    "Desc": "COT-LB2025480-00 / Toma de Muestras y Análisis / PFV Domeyko Revergy SPA",
+    "Code": "LAB-2025-0023",
+    "Att1": "REVERGY SPA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0099",
+    "Desc": "COT-LB2025505-01/Toma de muestra Planta El Peñón / SE ENLASA Coquimbo",
+    "Code": "SER-2025-0099",
+    "Att1": "ENLASA - El Peñón",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0021",
+    "Desc": "COT-LB2025557-00 / OC_4507078633 Servicio toma de muestras y análisis de aceite 82 transformadores y 03 cambiadores de tap. Planta Arauco Nueva Aldea",
+    "Code": "LAB-2025-0021",
+    "Att1": "ARAUCO NUEVA ALDEA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0022",
+    "Desc": "COT-LB2025571-00 / Toma de muestra y análisis de Transformador en SSAA, Ovalle-Coquimbo/ SIEMENS ENERGY S.A.",
+    "Code": "LAB-2025-0022",
+    "Att1": "SIEMENS ENERGY SA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0024",
+    "Desc": "COT-LB2025623-00/Toma de muestra/AES GENER -Cordillera TR2 Queltehues",
+    "Code": "LAB-2025-0024",
+    "Att1": "AES GENER - Cordillera",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0027",
+    "Desc": "COT-LB2025638-00/ Toma de muestras y Análisis /Los Guindos SPA",
+    "Code": "LAB-2025-0027",
+    "Att1": "LOS GUINDOS GENERACION SPA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0028",
+    "Desc": "COT-LB2025646-00/Toma de muestras/AES GENER- Cordillera TR1 y TR3 Central Queltehues",
+    "Code": "LAB-2025-0028",
+    "Att1": "AES GENER - Cordillera",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "CON-2025-0092",
+    "Desc": "ODS 21_Toma de muestras y análisis de aceite (Junio-25)",
+    "Code": "CON-2025-0092",
+    "Att1": "ENAP Bio Bio",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0066",
+    "Desc": "OS 15598-04-2025 - Serv. de Relleno / Arauco Nueva Aldea",
+    "Code": "SER-2025-0066",
+    "Att1": "ARAUCO NUEVA ALDEA",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "CON-2025-0020",
+    "Desc": "COT-2021349-11 / ODS_52 / Lubrisider - Out LS L1 -  26 de feb",
+    "Code": "CON-2025-0020",
+    "Att1": "Minera Escondida BHP MEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0055",
+    "Desc": "COT-2024607-00 / ODS_24 Mantenimiento Correctivo ATR _ S CDXS 01-2023_ Enel Distribución",
+    "Code": "SER-2025-0055",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0033",
+    "Desc": "COT-2025022-00 / OC_388870 Serv. Pruebas Eléctricas Central Sta. Lidia / Gen. Metropolitana",
+    "Code": "SER-2025-0033",
+    "Att1": "GENERADORA METROPOLITANA SPA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0051",
+    "Desc": "COT-2025131-01 / 01 TR Zig-Zag Traslado e instalación",
+    "Code": "SER-2025-0051",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0004",
+    "Desc": "COT-LB2024803-00 / Toma de Muestras - EKA CHILE - Talcahuano",
+    "Code": "LAB-2025-0004",
+    "Att1": "EKA CHILE S.A.",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0057",
+    "Desc": "COT-2024607-00 / ODS_26 Mantenimiento Correctivo ATR _ S CDXS 01-2023_ Enel Distribución",
+    "Code": "SER-2025-0057",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0027",
+    "Desc": "COT-2025093-00 / OC_4500043448 Serv. sum. aceite SE Quillagua / SIEMENS Energy SpA Antof.",
+    "Code": "SER-2025-0027",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0017",
+    "Desc": "COT-LB2025465-01 / 14 Medición humedad y rigidez + TM PFV Sol de Lila",
+    "Code": "LAB-2025-0017",
+    "Att1": "ENEL GREEN POWER SOL LILA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0005",
+    "Desc": "COT-2021101-02 / ODS_72 Toma de muestra urgente Transformador T3 SE Cordillera",
+    "Code": "LAB-2025-0005",
+    "Att1": "CODELCO - División Andina (AND)",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0011",
+    "Desc": "COT-2022059-00 / ODS 13/  SERVICIO de Mantención T1 /SE MAUCO",
+    "Code": "CON-2025-0011",
+    "Att1": "ENAP REFINERIA ACONCAGUA - ERA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0039",
+    "Desc": "COT-2022059-00 / ODS 18_ TR 64",
+    "Code": "CON-2025-0039",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA ACONCAGUA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0130",
+    "Desc": "COT-2025716-01 - Falla energización - Desmontaje bushing e insp interna - SE Movil SAESA",
+    "Code": "SER-2025-0130",
+    "Att1": "HITACHI ENERGY CHILE S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0004",
+    "Desc": "COT-2023825-01 / ODS_8 Servicio de mantenimiento SD enero 2025 / Planta GMD CEN",
+    "Code": "CON-2025-0004",
+    "Att1": "MINERA CENTINELA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0147",
+    "Desc": "COT-2025746-01 / Arriendo y Retiro estanque cisterna",
+    "Code": "SER-2025-0147",
+    "Att1": "HITACHI ENERGY CHILE S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0028",
+    "Desc": "COT-2021349-11 / ODS 53 / SD LC L2 - 12 MARZO",
+    "Code": "CON-2025-0028",
+    "Att1": "Minera Escondida BHP MEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0006",
+    "Desc": "COT-2024575-01 / MAN Y REG 02 TRS - SIERRA GORDA - LOMAS BAYAS",
+    "Code": "CON-2025-0006",
+    "Att1": "COMPANIA MINERA LOMAS BAYAS",
+    "Att2": "Carlos Lent - Contratos"
+  },
+  {
+    "Name": "CON-2025-0137",
+    "Desc": "COT-2025124-02 / Servicio de Garantía CON-2025-0065 Reparación Trafo Coya Sur",
+    "Code": "CON-2025-0137",
+    "Att1": "SQM COYA SUR",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0029",
+    "Desc": "COT-2022059-00 / ODS 17 /Cambio Válvula Tr-59 / SH17 (Planta Coker)",
+    "Code": "CON-2025-0029",
+    "Att1": "ENAP REFINERIA ACONCAGUA - ERA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0061",
+    "Desc": "COT-2025291-00 / ODS 29_SERVICIO: Ingeniería para integración de transformador en SEU",
+    "Code": "CON-2025-0061",
+    "Att1": "CORPORACION NACIONAL DEL COBRE DE CHILE, DIVISIÓN EL SALVADOR (DSAL)",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0126",
+    "Desc": "COT-2025570-02 / Traslado, descarga y pruebas TR PFV Valle Escondido",
+    "Code": "SER-2025-0126",
+    "Att1": "MAINSTREAM RENEWABLE POWER CHILE",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2024-0001",
+    "Desc": "COT-LB2024804-01 / TM AN 01 ATR S.E. LO AGUIRRE - POWER CHINA",
+    "Code": "LAB-2024-0001",
+    "Att1": "POWER CHINA",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "CON-2025-0022",
+    "Desc": "COT-2023537-03 / ODS_22 /TM y Analisis de Aceite (CONCENTRADORA)",
+    "Code": "CON-2025-0022",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0003",
+    "Desc": "COT-2023825-02 / ODS_6 Servicio de mantenimiento SD enero 2025 / Planta Sulfuros CEN",
+    "Code": "CON-2025-0003",
+    "Att1": "MINERA CENTINELA",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0032",
+    "Desc": "COT-2024529-00 / OC_124 Mantenimiento (2u) en taller Trafo Energy / Cerro Dominador PV.",
+    "Code": "SER-2025-0032",
+    "Att1": "CERRO DOMINADOR PV",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0049",
+    "Desc": "COT-2025131-01 / 01 TR Zig-Zag Carga y Traslado",
+    "Code": "SER-2025-0049",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0001",
+    "Desc": "COT-2024632-00 / Rev.1Aceite a Transformador CT2 de 3125 kVA",
+    "Code": "SER-2025-0001",
+    "Att1": "PRIME ENERGIA SpA",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0019",
+    "Desc": "COT-LB2025517-00 / 04 TM Planta EKA Talcahuano",
+    "Code": "LAB-2025-0019",
+    "Att1": "EKA CHILE S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0014",
+    "Desc": "COT-2025048-00 / Ensayos Eléctricos - SIEMENS S.A - Rancagua",
+    "Code": "SER-2025-0014",
+    "Att1": "SIEMENS S.A.",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0088",
+    "Desc": "COT-2025429-00 / Ensayos eléctricos y toma de muestra Tinguiririca",
+    "Code": "SER-2025-0088",
+    "Att1": "TINGUIRIRICA ENERGÍA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0008",
+    "Desc": "COT-2021629-01 / ODS 16 / MANTENCION TR 1502",
+    "Code": "CON-2025-0008",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA BIOBÍO",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "CON-2025-0021",
+    "Desc": "COT-2023537-03 / ODS_21/ TM y Análisis de Aceite (HIDROMETALURGIA)",
+    "Code": "CON-2025-0021",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0010",
+    "Desc": "COT-2024724-00 / CAPACITACION TM AN - TECK (Practica)",
+    "Code": "SER-2025-0010",
+    "Att1": "TECK QUEBRADA BLANCA",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0028",
+    "Desc": "COT-2025068-01 / SE Celda Solar Inspección y pruebas a 01 ATR",
+    "Code": "SER-2025-0028",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0009",
+    "Desc": "COT-2024724-00 / CAPACITACION TM AN - TECK (Teórica)",
+    "Code": "SER-2025-0009",
+    "Att1": "TECK QUEBRADA BLANCA",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0134",
+    "Desc": "COT-2025618-01 / Etapa 1 Ingeniería Housing 110kV Booster 1",
+    "Code": "SER-2025-0134",
+    "Att1": "ENGIE TOCOPILLA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0003",
+    "Desc": "COT-LB2024672-00 / Toma de Muestra - MOLYMET - Planta NOS",
+    "Code": "LAB-2025-0003",
+    "Att1": "MOLYMET",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0018",
+    "Desc": "COT-2025042-01 / Serv. de Reparación - SIEMENS ENERGY SPA",
+    "Code": "SER-2025-0018",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0101",
+    "Desc": "COT-2025341-00 / Desgacificado Central El Toro ENEL",
+    "Code": "SER-2025-0101",
+    "Att1": "ENEL GENERACION CHILE S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0015",
+    "Desc": "COT-2022059-00 / ODS_16/  TM Y ANALISIS DE ACEITE",
+    "Code": "CON-2025-0015",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA ACONCAGUA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0008",
+    "Desc": "COT-2024532-03 / Etapa 2 - Traslado y Posicionamiento Transformador Engie Mejillones",
+    "Code": "SER-2025-0008",
+    "Att1": "ENGIE",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0019",
+    "Desc": "COT-LB2025085-00 / Servicio de TM y Analisis - COLBUN",
+    "Code": "SER-2025-0019",
+    "Att1": "COLBUN S.A.",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "CON-2025-0019",
+    "Desc": "COT-2024525-02 / ODS_01 / CEME1 Muestreo de Aceite 68 TR",
+    "Code": "CON-2025-0019",
+    "Att1": "GEME - GENERADORA METROPOLITANA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0002",
+    "Desc": "COT-LB2024785-00 / Toma de Muestras - GREENTECH - Casas de Chacabuco",
+    "Code": "SER-2025-0002",
+    "Att1": "GREENTECH SOLUTIONS SpA",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0109",
+    "Desc": "SER / Tratamiento Transelec San Vicente Talcahuano",
+    "Code": "SER-2025-0109",
+    "Att1": "TRANSELEC",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0114",
+    "Desc": "COT-2025227-01 / Relleno y tratamiento Cementos Melón",
+    "Code": "SER-2025-0114",
+    "Att1": "Cementos Melon",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0030",
+    "Desc": "COT-2025377-01 / ODS_03 Medición humedad y rigidez en terreno + TM para laboratorio",
+    "Code": "LAB-2025-0030",
+    "Att1": "ENEL GREEN POWER GUANCHOI",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0015",
+    "Desc": "COT-2024711-02 / Servicio de Mantenimiento, Toma de muestra e Instalación DGPT2 (Cerro Dominador)",
+    "Code": "SER-2025-0015",
+    "Att1": "CERRO DOMINADOR",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "CON-2025-0087",
+    "Desc": "COT-2025122-01 / ODS_05 Mtto Correctivo TR Secado L4 SQM",
+    "Code": "CON-2025-0087",
+    "Att1": "SQM INDUSTRIAL S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0148",
+    "Desc": "COT-2025775-01 / Inspección y pruebas a 01 ATR Proyecto Horizonte",
+    "Code": "SER-2025-0148",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0127",
+    "Desc": "COT-2025616-00 /  Pruebas eléctricas 02 Trafos secos",
+    "Code": "SER-2025-0127",
+    "Att1": "CEMENTOS MELÓN",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0001",
+    "Desc": "COT-LB2024747-00 / Toma de Muestras - ENGIE Lomas Taltal",
+    "Code": "LAB-2025-0001",
+    "Att1": "ENGIE",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "SER-2025-0081",
+    "Desc": "COT-2025418-00 / Asistencia técnica para inspección de relé Buchholz",
+    "Code": "SER-2025-0081",
+    "Att1": "HITACHI ENERGY CHILE S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0007",
+    "Desc": "COT-2021349-11 / ODS 50 / CLC L1- 05 FEBRERO",
+    "Code": "CON-2025-0007",
+    "Att1": "MINERA ESCONDIDA LIMITADA",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0016",
+    "Desc": "COT-LB2025451-00 /  04 Tom muestras CMPC",
+    "Code": "LAB-2025-0016",
+    "Att1": "CMPC planta Pacifico",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0016",
+    "Desc": "COT-2023643-05 / ODS_28 Toma muestras PCB y Limp. Bateas / Enel Distribución",
+    "Code": "CON-2025-0016",
+    "Att1": "ENEL DISTRIBUCION CHILE S.A.",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0050",
+    "Desc": "COT-2025131-01 / 01 TR Zig-Zag Inspección en Taller",
+    "Code": "SER-2025-0050",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0025",
+    "Desc": "COT-2025377-01 / ODS_02 Medición humedad y rigidez en terreno + TM",
+    "Code": "LAB-2025-0025",
+    "Att1": "ENEL GREEN POWER GUANCHOI",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0077",
+    "Desc": "COT-LB2023880-01 / ODS_04 Servicio Toma de Muestras",
+    "Code": "CON-2025-0077",
+    "Att1": "SQM COYA SUR",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0006",
+    "Desc": "COT-LB2024759-00 / Toma de Muestras - ARAUCO - Constitución",
+    "Code": "LAB-2025-0006",
+    "Att1": "ARAUCO",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0013",
+    "Desc": "COT-LB2025274-00 / CAF TURNKEY / Ser. Toma de Muestras /Mejillones",
+    "Code": "LAB-2025-0013",
+    "Att1": "CAF TURNKEY & ENGINEERING, S.L., DE, Jonathan Navarrete Rojas",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0002",
+    "Desc": "COT-2021349-11 / ODS_48 / Servicio SD LC L3 8 Enero",
+    "Code": "CON-2025-0002",
+    "Att1": "MINERA ESCONDIDA LIMITADA",
+    "Att2": "Cristian Burgos"
+  },
+  {
+    "Name": "SER-2025-0059",
+    "Desc": "COT-2025136 - 00 / Ser. Inspección de 09 Transformadores Marca Getra",
+    "Code": "SER-2025-0059",
+    "Att1": "GETRA POWER SPA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0014",
+    "Desc": "COT-2021349-11 / ODS_51/ OT 418589211 Trasvasije silicona transformadores L2 - LAGUNA",
+    "Code": "CON-2025-0014",
+    "Att1": "Minera Escondida BHP MEL",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0014",
+    "Desc": "COT-LB2025274-00 / CAF TURNKEY / Ser. Toma de Muestras /Ovalle",
+    "Code": "LAB-2025-0014",
+    "Att1": "CAF TURNKEY & ENGINEERING, S.L., DE, Jonathan Navarrete Rojas",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0012",
+    "Desc": "COT-2025047-00 / ODS_17/ Retiro y disposición final aceite dieléctrico",
+    "Code": "CON-2025-0012",
+    "Att1": "ENAP REFINERIA S.A., REFINERÍA BIOBÍO",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "SER-2025-0036",
+    "Desc": "COT-2025146-00 / Supervicion de Trabajos en Horario Extendido",
+    "Code": "SER-2025-0036",
+    "Att1": "TRAFO ENERGY S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0010",
+    "Desc": "COT-2023825-02 / ODS_5 Ensayo eléctrico, toma de muestras bodega / Planta Sulfuros CEN",
+    "Code": "CON-2025-0010",
+    "Att1": "MINERA CENTINELA - Antofagasta Minerals",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0078",
+    "Desc": "COT-2025377-01 / Servicio de medición de humedad y rigidez en terreno",
+    "Code": "SER-2025-0078",
+    "Att1": "ENEL",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0065",
+    "Desc": "COT-2025124-02 / ODS_03 Reparación Trafo Coya Sur",
+    "Code": "CON-2025-0065",
+    "Att1": "SQM COYA SUR",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0045",
+    "Desc": "COT-2025184-00 / Servicio de relleno de aceite",
+    "Code": "SER-2025-0045",
+    "Att1": "Generación Solar SPA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0067",
+    "Desc": "COT-2025123-01 / ODS_02 Reparación Trafo SE Maria Elena",
+    "Code": "CON-2025-0067",
+    "Att1": "SQM COYA SUR",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0003",
+    "Desc": "COT-2024185-00 / Mantención Correctiva Transformador MT2 Subestación Central Laja",
+    "Code": "SER-2025-0003",
+    "Att1": "ENGIE",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0038",
+    "Desc": "COT-2024812-01 / SE Santa Teresa Lampa Armado 02 TR",
+    "Code": "SER-2025-0038",
+    "Att1": "HITACHI ENERGY CHILE S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0047",
+    "Desc": "COT-2024357-01 & COT-2024243-02 / SE Móvil LLenado y Pruebas en Antofagasta",
+    "Code": "SER-2025-0047",
+    "Att1": "HITACHI ENERGY CHILE S.A.",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0006",
+    "Desc": "COT-2024541-01 / ENGIE Tocopilla Pruebas Eléctricas ATR2",
+    "Code": "SER-2025-0006",
+    "Att1": "ENGIE",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0017",
+    "Desc": "COT-2023321-02 / ODS_07 SQM SE La Cruz Mantención",
+    "Code": "CON-2025-0017",
+    "Att1": "SQM COYA SUR",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0005",
+    "Desc": "COT-2024541-01 / Etapa 2 - Ingeniería de conservador ENGIE Tocopilla + REPUESTOS MR",
+    "Code": "SER-2025-0005",
+    "Att1": "ENGIE",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0026",
+    "Desc": "COT-2025068-01 / Inspección y pruebas a 01 ATR en Puerto Angamos",
+    "Code": "SER-2025-0026",
+    "Att1": "SIEMENS ENERGY SpA",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0063",
+    "Desc": "COT-2025384-00 / ENGIE Inspección Urgencia PEMR",
+    "Code": "SER-2025-0063",
+    "Att1": "ENGIE",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "SER-2025-0007",
+    "Desc": "COT-2024142-01 / MONTE REDONDO ETAPA 2 - TRATAMIENTO DE ACEITE",
+    "Code": "SER-2025-0007",
+    "Att1": "ENGIE",
+    "Att2": "Daniel Moragas - Contratos"
+  },
+  {
+    "Name": "CON-2025-0102",
+    "Desc": "COT-2023825-01/ SD agosto 2025 Planta GMD MCEN",
+    "Code": "CON-2025-0102",
+    "Att1": "MINERA CENTINELA - Antofagasta Minerals",
+    "Att2": "Rodrigo Brito - Contratos"
+  },
+  {
+    "Name": "SER-2025-0017",
+    "Desc": "COT-2025075-01 / Ser. Ensayos Electricos - Valle Escondido Tierra Amarilla",
+    "Code": "SER-2025-0017",
+    "Att1": "EGS Power",
+    "Att2": "Sebastián Gómez - Contratos"
+  },
+  {
+    "Name": "LAB-2025-0026",
+    "Desc": "COT-2025291-00 / ODS 34 _ ANALSIS DE ACEITE_ CONTRA MUESTRA 03800-SEU-001 + 2 TR 500 kVA",
+    "Code": "LAB-2025-0026",
+    "Att1": "CODELCO - División Salvador",
+    "Att2": "Hector Leiva - Contratos"
+  },
+  {
+    "Name": "IDG-0000-000",
+    "Desc": "OPERACIONES LUBRISIDER CHILE S.A",
+    "Code": "IDG-0000-000",
+    "Att1": "LUBRISIDER CHILE S.A",
+    "Att2": "Luis Jara Gerencia de Operaciones"
+  }
+]

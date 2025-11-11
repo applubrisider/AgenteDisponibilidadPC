@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Informe de Disponibilidad</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; margin: 24px; }
+  h1 { margin-bottom: 4px; }
+  .meta { color:#444; margin-bottom: 16px; }
+  .kpis { display:flex; gap:16px; margin: 16px 0; }
+  .kpi { padding:12px 16px; border-radius:10px; background:#f4f6f8; }
+  .tabla { border-collapse: collapse; width: 100%; font-size: 14px; }
+  .tabla th, .tabla td { border-bottom: 1px solid #e5e5e5; padding: 8px 10px; text-align: left; }
+  .tabla tr:nth-child(even) { background: #fafafa; }
+  .crit-ALTA { color: #0c7; font-weight:bold; }
+  .crit-MEDIA { color: #f90; font-weight:bold; }
+  .crit-BAJA { color: #e33; font-weight:bold; }
+</style>
+</head>
+<body>
+  <h1>Informe de Disponibilidad</h1>
+  <div class="meta">
+    <div><b>Rango analizado:</b> 2025-10-27 a 2025-11-10 (15 días)</div>
+    <div><b>Umbrales:</b> ALTA ≥4 días o racha ≥3 &nbsp;|&nbsp; BAJA ≤2 días</div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><b>ALTA</b><br><span class="crit-ALTA">16</span></div>
+    <div class="kpi"><b>MEDIA</b><br><span class="crit-MEDIA">0</span></div>
+    <div class="kpi"><b>BAJA</b><br><span class="crit-BAJA">63</span></div>
+  </div>
+
+  <table class="dataframe tabla">
+  <thead>
+    <tr style="text-align: center;">
+      <th>RUT</th>
+      <th>Colaborador</th>
+      <th>Departamento</th>
+      <th>Ciudad Residencia</th>
+      <th>dias_ventana</th>
+      <th>dias_disponibles</th>
+      <th>porc_disponible</th>
+      <th>streak_max</th>
+      <th>criticidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>17.210.772-9</td>
+      <td>Jorge Antonio Alarcon Salinas</td>
+      <td>OPER</td>
+      <td>La Calera</td>
+      <td>15</td>
+      <td>10</td>
+      <td>66.7</td>
+      <td>10</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>17.507.430-9</td>
+      <td>Esteban Nicolas Perez Rubio</td>
+      <td>OPER</td>
+      <td>Rancagua</td>
+      <td>15</td>
+      <td>10</td>
+      <td>66.7</td>
+      <td>10</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>13.844.476-7</td>
+      <td>Miguel Antonio Jara Pereira</td>
+      <td>OPER</td>
+      <td>nan</td>
+      <td>15</td>
+      <td>8</td>
+      <td>53.3</td>
+      <td>8</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>20.435.147-3</td>
+      <td>Emanuel Esteban Delgado Munita</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>8</td>
+      <td>53.3</td>
+      <td>8</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>20.871.148-2</td>
+      <td>Martin Alexis Alfaro Muñoz</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>8</td>
+      <td>53.3</td>
+      <td>8</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>10.480.364-4</td>
+      <td>Lorenzo Juan Acuña Flores</td>
+      <td>OPER</td>
+      <td>La Pintana</td>
+      <td>15</td>
+      <td>7</td>
+      <td>46.7</td>
+      <td>7</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>12.326.284-0</td>
+      <td>Juan Pablo Pino Jorquera</td>
+      <td>OPER</td>
+      <td>Chañaral</td>
+      <td>15</td>
+      <td>7</td>
+      <td>46.7</td>
+      <td>7</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>19.613.631-2</td>
+      <td>Gregory Alexander Torres Sasso</td>
+      <td>OPER</td>
+      <td>Villa Alemana</td>
+      <td>15</td>
+      <td>7</td>
+      <td>46.7</td>
+      <td>7</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>21.189.108-4</td>
+      <td>Elias Francisco Zenteno Rosales</td>
+      <td>OPER</td>
+      <td>Lo Prado</td>
+      <td>15</td>
+      <td>6</td>
+      <td>40.0</td>
+      <td>6</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>15.699.964-4</td>
+      <td>Hugo Heraldo Araya Cortes</td>
+      <td>OPER</td>
+      <td>Los Angeles</td>
+      <td>15</td>
+      <td>5</td>
+      <td>33.3</td>
+      <td>3</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>26.010.616-3</td>
+      <td>Enmanuel Nicolas Alvarez Suyo</td>
+      <td>OPER</td>
+      <td>La Florida</td>
+      <td>15</td>
+      <td>5</td>
+      <td>33.3</td>
+      <td>3</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>20.456.200-8</td>
+      <td>Cristian Marcel Perez Nuñez</td>
+      <td>OPER</td>
+      <td>pudahuel</td>
+      <td>15</td>
+      <td>4</td>
+      <td>26.7</td>
+      <td>4</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>21.777.820-4</td>
+      <td>Javier Ignacio Canaves Cuadra</td>
+      <td>OPER</td>
+      <td>San Joaquín</td>
+      <td>15</td>
+      <td>4</td>
+      <td>26.7</td>
+      <td>4</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>12.556.775-4</td>
+      <td>Victor Manuel Merino Briso</td>
+      <td>OPER</td>
+      <td>Talca</td>
+      <td>15</td>
+      <td>3</td>
+      <td>20.0</td>
+      <td>3</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>15.205.910-8</td>
+      <td>John Andres Salas Paredes</td>
+      <td>OPER</td>
+      <td>Puyehue</td>
+      <td>15</td>
+      <td>3</td>
+      <td>20.0</td>
+      <td>3</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>19.561.125-4</td>
+      <td>Duvan Maximiliano Pineda Rivera</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>3</td>
+      <td>20.0</td>
+      <td>3</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>10.394.327-2</td>
+      <td>Luis Alberto Cea Villar</td>
+      <td>OPER</td>
+      <td>PEÑALOLEN</td>
+      <td>15</td>
+      <td>2</td>
+      <td>13.3</td>
+      <td>2</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>13.655.247-3</td>
+      <td>Gregory Andres Garrido Briceño</td>
+      <td>OPER</td>
+      <td>Puchuncaví</td>
+      <td>15</td>
+      <td>2</td>
+      <td>13.3</td>
+      <td>2</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>13.715.353-K</td>
+      <td>Fabian Andrés Díaz Almuna</td>
+      <td>OPER</td>
+      <td>Maipú</td>
+      <td>15</td>
+      <td>2</td>
+      <td>13.3</td>
+      <td>2</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>16.274.456-9</td>
+      <td>Jose Valentin Vasquez Tapia</td>
+      <td>OPER</td>
+      <td>Linares</td>
+      <td>15</td>
+      <td>2</td>
+      <td>13.3</td>
+      <td>2</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>17.612.792-9</td>
+      <td>Cesar Andres Oyarzun Ortiz</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>2</td>
+      <td>13.3</td>
+      <td>2</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>18.092.883-9</td>
+      <td>Carlos Alfredo Mendez Becerra</td>
+      <td>OPER</td>
+      <td>La Florida</td>
+      <td>15</td>
+      <td>1</td>
+      <td>6.7</td>
+      <td>1</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>11.972.233-0</td>
+      <td>Nelson Enrique Chanalet Orellana</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>12.828.270-K</td>
+      <td>Carlos Germain Martinez Perez</td>
+      <td>OPER</td>
+      <td>Constitución</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>12.862.451-1</td>
+      <td>Alejandro Eliseo Borquez Riffo</td>
+      <td>OPER</td>
+      <td>Puente Alto</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>13.024.534-K</td>
+      <td>Eduardo Romelio Bernal Diaz</td>
+      <td>OPER</td>
+      <td>Viña del Mar</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>13.039.057-9</td>
+      <td>Guillermo Aquiles Briones Rodriguez</td>
+      <td>OPER</td>
+      <td>Peñalolén</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>13.065.946-2</td>
+      <td>Rolando Miguel Diaz Cabrera</td>
+      <td>OPER</td>
+      <td>Macul</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>13.074.071-5</td>
+      <td>Marcelo Cristian Castillo Vidal</td>
+      <td>OPER</td>
+      <td>Puente Alto</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>13.579.386-8</td>
+      <td>Viviano Enrique Inzunza Salgado</td>
+      <td>OPER</td>
+      <td>Los Angeles</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>13.634.887-6</td>
+      <td>Rodrigo Iván Perez Gonzalez</td>
+      <td>OPER</td>
+      <td>Valparaiso</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>13.635.635-6</td>
+      <td>Julio Andrés Vera Villalobos</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>13.763.324-8</td>
+      <td>Christian Andrés Arancibia Arancibia</td>
+      <td>OPER</td>
+      <td>Nogales</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>14.572.376-0</td>
+      <td>Eduardo Esteban Guzman Inostroza</td>
+      <td>OPER</td>
+      <td>Quillota</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>15.028.429-5</td>
+      <td>Guillermo Daniel Aravena Salaza</td>
+      <td>OPER</td>
+      <td>nan</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>15.094.284-5</td>
+      <td>Pablo Oriel Orrego Garcia</td>
+      <td>OPER</td>
+      <td>Nogales</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>15.206.758-5</td>
+      <td>Sergio Alfonso Vasquez Henriquez</td>
+      <td>OPER</td>
+      <td>Los Angeles</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>15.655.979-2</td>
+      <td>Cesar Eliazer Antivil Antivil</td>
+      <td>OPER</td>
+      <td>Los Angeles</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>15.787.896-4</td>
+      <td>Luis Norberto Jara Pizarro</td>
+      <td>OPER_OF</td>
+      <td>Paine</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>15.807.308-0</td>
+      <td>Miguel Angel Maturana Fernandez</td>
+      <td>OPER</td>
+      <td>nan</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>16.498.277-7</td>
+      <td>Jose Alexis Burgos Rosales</td>
+      <td>OPER</td>
+      <td>Quilleco</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>16.674.563-2</td>
+      <td>Hector Eduardo Acuña Pinares</td>
+      <td>OPER</td>
+      <td>Los Angeles</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>16.685.158-0</td>
+      <td>Carlos Antonio Barrera Garrido</td>
+      <td>OPER</td>
+      <td>Chillan</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>16.951.273-6</td>
+      <td>Ramon Enrique Tobar Saez</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>17.027.903-4</td>
+      <td>Claudio Alejandro Barahona Mena</td>
+      <td>OPER</td>
+      <td>Maipú</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>17.047.863-0</td>
+      <td>Nicolas Antonio Gatica Olmos</td>
+      <td>OPER</td>
+      <td>San Miguel</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>17.063.203-6</td>
+      <td>Hector Andres Carrasco Jara</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>17.522.413-0</td>
+      <td>Miguel Angel Guajardo Cisternas</td>
+      <td>OPER</td>
+      <td>Rancagua</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>17.551.788-K</td>
+      <td>Sergio Alejandro Araya Paredes</td>
+      <td>OPER_OF</td>
+      <td>Puente Alto</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>17.771.355-4</td>
+      <td>Eduardo Alexei Diaz San Martin</td>
+      <td>OPER</td>
+      <td>nan</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>17.836.192-9</td>
+      <td>Ermes Nicolas Emannuel Muñoz Diaz</td>
+      <td>OPER</td>
+      <td>Lo Prado</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>17.851.241-2</td>
+      <td>Daniel Esteban Toro Cid</td>
+      <td>OPER</td>
+      <td>Puente Alto</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>17.870.454-0</td>
+      <td>Jaime Octavio Hernandez Rosales</td>
+      <td>OPER</td>
+      <td>Los Angeles</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>18.021.783-5</td>
+      <td>Monica Emilia Peralta Zunino</td>
+      <td>OPER_OF</td>
+      <td>San Miguel</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>19.154.076-K</td>
+      <td>Nicolas Alexander Moya Toledo</td>
+      <td>OPER</td>
+      <td>Viña del mar</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>19.187.280-0</td>
+      <td>Camilo Alfredo Valdivia Valenzuela</td>
+      <td>OPER_OF</td>
+      <td>Quilicura</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>19.319.469-9</td>
+      <td>Jorge Alexander Riveros de la Torre</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>19.372.658-5</td>
+      <td>Felipe Antonio Yañez Torres</td>
+      <td>OPER</td>
+      <td>nan</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>19.565.133-7</td>
+      <td>Marcelo Guillermo Azolas Araya</td>
+      <td>OPER</td>
+      <td>puente alto</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>19.792.618-K</td>
+      <td>Roberto Ignacio Valenzuela Rojo</td>
+      <td>OPER</td>
+      <td>Peñaflor</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>20.063.806-9</td>
+      <td>Jordán Rocher Torres Rifo</td>
+      <td>OPER</td>
+      <td>Lampa</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>20.177.794-1</td>
+      <td>Javier Ignacio Salinas Araya</td>
+      <td>OPER</td>
+      <td>Peumo</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>20.371.126-3</td>
+      <td>Jose Rolando Novoa Salas</td>
+      <td>OPER</td>
+      <td>Rancagua</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>20.403.372-2</td>
+      <td>Jose Alexis Bustos Covarrubias</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>20.685.980-6</td>
+      <td>Francisco Jose Sandoval Barra</td>
+      <td>OPER</td>
+      <td>nan</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>20.904.001-8</td>
+      <td>Juan Cristobal Pino Navarro</td>
+      <td>OPER</td>
+      <td>Los Angeles</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>21.367.407-2</td>
+      <td>Gabriel Aram Aminadab Cadin Quintremil</td>
+      <td>OPER</td>
+      <td>Puente Alto</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>21.389.809-4</td>
+      <td>Mauricio Aron Valenzuela Román</td>
+      <td>OPER</td>
+      <td>SANTIAGO</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>21.411.358-9</td>
+      <td>Julian Jeremy Torres Rifo</td>
+      <td>OPER</td>
+      <td>Lampa</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>21.486.872-5</td>
+      <td>Benjamin Luciano Pino Navarro</td>
+      <td>OPER</td>
+      <td>Los angeles</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>21.528.121-3</td>
+      <td>John Francisco Antonio Leal Salinas</td>
+      <td>OPER</td>
+      <td>LAMPA</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>24.253.701-7</td>
+      <td>Federico José Carrera .</td>
+      <td>OPER</td>
+      <td>San Miguel</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>24.858.614-1</td>
+      <td>Bernardo Ariel Reyes Hernandez</td>
+      <td>OPER_OF</td>
+      <td>Quinta Normal</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>25.437.029-0</td>
+      <td>Ronald Jose Rodriguez Gonzalez</td>
+      <td>OPER</td>
+      <td>Iquique</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>25.679.284-2</td>
+      <td>Hector Eduardo Suarez Yaguache</td>
+      <td>OPER</td>
+      <td>Santiago</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>26.556.848-3</td>
+      <td>Jose Antonio Restrepo Acosta</td>
+      <td>OPER</td>
+      <td>San Joaquín</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>26.682.168-9</td>
+      <td>Anderson Enrique Tortoza Barreto</td>
+      <td>OPER</td>
+      <td>Cerro Navia</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>9.098.512-4</td>
+      <td>Fernando Dimas Lobos Gonzalez</td>
+      <td>OPER</td>
+      <td>Pudahuel</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>9.251.750-0</td>
+      <td>Juan Patricio Zuloaga Olave</td>
+      <td>OPER</td>
+      <td>Estación Central</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>BAJA</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
