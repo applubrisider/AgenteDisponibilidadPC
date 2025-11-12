@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import sys
 from pathlib import Path
 import datetime as dt
 
@@ -21,10 +22,31 @@ from agent.logic import (
     normalize_rut_series
 )
 
+APP_NAME = "AgenteDisponibilidadPC"
+
 def _parse_date(s: str | None):
     if not s:
         return None
     return dt.date.fromisoformat(s)
+
+def get_base_dir(app_name: str = APP_NAME) -> Path:
+    """
+    Carpeta base escribible del usuario:
+    %LOCALAPPDATA%\AgenteDisponibilidadPC (Windows)
+    """
+    return Path(os.getenv("LOCALAPPDATA", str(Path.home() / "AppData" / "Local"))) / app_name
+
+def resolve_under_base(path_str: str, base: Path) -> Path:
+    """
+    Si la ruta es absoluta, se respeta.
+    Si es relativa (p.ej. 'out' o 'models'), se coloca bajo la base.
+    """
+    p = Path(path_str)
+    return p if p.is_absolute() else (base / p)
+
+def ensure_dirs(*dirs: Path):
+    for d in dirs:
+        d.mkdir(parents=True, exist_ok=True)
 
 def parse_args():
     p = argparse.ArgumentParser(description="Agente de Disponibilidad (PC)")
@@ -34,7 +56,7 @@ def parse_args():
     p.add_argument("--ruts-file", type=str, help="(Opcional) CSV con RUTs válidos para filtrar")
 
     # Config & salida
-    p.add_argument("--out", type=str, default="out", help="Carpeta de salida")
+    p.add_argument("--out", type=str, default="out", help="Carpeta de salida (relativa => LOCALAPPDATA/AgenteDisponibilidadPC/out)")
     p.add_argument("--config", type=str, default="config.yaml", help="Ruta a config.yaml")
 
     # Rango de fechas
@@ -44,7 +66,7 @@ def parse_args():
     # ML offline (opcional)
     p.add_argument("--use-ml", action="store_true", help="Usar clasificador ML offline")
     p.add_argument("--train-ml", action="store_true", help="Entrenar/actualizar el modelo ML")
-    p.add_argument("--model-dir", type=str, default="models", help="Carpeta para el modelo ML")
+    p.add_argument("--model-dir", type=str, default="models", help="Carpeta para el modelo ML (relativa => LOCALAPPDATA/AgenteDisponibilidadPC/models)")
 
     # Reporte “sin carga”
     p.add_argument("--null-csv", action="store_true", help="Exportar sin_carga.csv")
@@ -62,13 +84,27 @@ def main():
     load_dotenv()
     args = parse_args()
 
+    # UI
     if args.ui:
         from agent.ui import launch_ui
         launch_ui()
         return
 
+    # Siempre que sean relativas, colocamos bajo %LOCALAPPDATA%\AgenteDisponibilidadPC
+    base_dir  = get_base_dir()
+    outdir    = resolve_under_base(args.out, base_dir)
+    model_dir = resolve_under_base(args.model_dir, base_dir)
+
+    # Crear carpetas escribibles
+    try:
+        ensure_dirs(base_dir, outdir, model_dir)
+    except PermissionError as e:
+        # Mensaje claro si por alguna razón el usuario no puede crear en LOCALAPPDATA
+        raise SystemExit(f"No se pudo crear carpetas de trabajo en {base_dir} ({e}). "
+                         "Ejecuta la app como usuario normal y verifica permisos.") from e
+
+    # Cargar config (se respeta tal cual; puede estar junto al exe)
     cfg = load_config(args.config)
-    outdir = Path(args.out); outdir.mkdir(parents=True, exist_ok=True)
 
     # Cargar dataset
     df = load_dataset(csv_url=args.csv_url, csv_file=args.csv_file)
@@ -90,13 +126,9 @@ def main():
 
     # ML offline (opcional)
     ml = None
-    if args.use-ml or args.train-ml:  # manejar guiones inválidos en atributos
-        pass  # esta línea solo evitaría el NameError si alguien lo copia mal
-
     if args.use_ml or args.train_ml:
         try:
             from agent.ml import ActivityClassifier
-            model_dir = Path(args.model_dir); model_dir.mkdir(parents=True, exist_ok=True)
             model_path = model_dir / "activity_clf.joblib"
 
             if args.train_ml or not model_path.exists():
@@ -110,7 +142,11 @@ def main():
 
     # Pipeline principal
     resumen, detalle, meta = classify_all(df, cfg, ml=ml, date_range=(start, end))
+
+    # Guardar CSVs en outdir (siempre escribible)
     save_outputs(resumen, detalle, outdir)
+
+    # Reporte principal
     html_path = build_html_report(resumen, meta, cfg, outdir)
 
     # KPI extendido
@@ -125,7 +161,12 @@ def main():
         if args.null_html:
             build_html_sin_carga(sc_df, {"rango": (start.isoformat(), end.isoformat())}, outdir)
 
-    print(f"OK. Archivos generados en: {outdir.resolve()}")
+    # Salida informativa
+    print("OK. Directorios:")
+    print(f"  BASE : {base_dir.resolve()}")
+    print(f"  OUT  : {outdir.resolve()}")
+    print(f"  MODEL: {model_dir.resolve()}")
+    print("Archivos generados:")
     print(f"- {html_path}")
     print("- resumen_disponibilidad.csv")
     print("- detalle_disponibilidad.csv")
